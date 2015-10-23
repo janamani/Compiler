@@ -1,0 +1,27 @@
+
+// Library name: AtoDConverters
+// Cell name: ScasubNormSAR
+// View name: schematic
+V2 (VIP 0) vsource phase=0 type=sine sinedc=900.0m ampl=450.00m freq=1K
+I0 (SAROut\<0\> SAROut\<1\> SAROut\<2\> SAROut\<3\> SAROut\<4\> \
+        SAROut\<5\> SAROut\<6\> SAROut\<7\> SAROutG Cmp0 Cmp1 Cmp2 Cmp3 \
+        Cmp4 Cmp5 Cmp6 Cmp7 CmpC vdd! VREFN VREFP 0) DriverNetWork
+V16 (vdd! 0) vsource dc=1.8 type=dc
+V38 (VREFN 0) vsource dc=400.0m type=dc
+V37 (VREFP 0) vsource dc=1.4 type=dc
+V40 (vcc! 0) vsource dc=1.8 type=dc
+I5 (Clock ClockCmp ClockTck Compare DataOut\<0\> DataOut\<1\> DataOut\<2\> \
+        DataOut\<3\> DataOut\<4\> DataOut\<5\> DataOut\<6\> DataOut\<7\> \
+        Ready Reset ResetN ResetP SAROut\<0\> SAROut\<1\> SAROut\<2\> \
+        SAROut\<3\> SAROut\<4\> SAROut\<5\> SAROut\<6\> SAROut\<7\> \
+        SAROutG) SARNormScasub
+I4 (0 VCN VCP vdd! VIP SIP) SampleAndHold
+V8 (Clock 0) vsource type=pulse val0=0 val1=1.8 period=1u delay=0 \
+        rise=100p fall=100p width=500.0n
+V1 (Reset 0) vsource type=pwl wave=[ 0 1.8 98n 1.8 98.1n 0 ]
+V0 (net011 0) vsource type=pwl wave=[ 0 900m 1u 900m 26u 1.35 76u 450m \
+        101u 900m 111u 1.08 125u 1.08 ]
+I1 (Cmp0 Cmp1 Cmp2 Cmp3 Cmp4 Cmp5 Cmp6 Cmp7 CmpC ResetN ResetP Vc vdd! \
+        VREFN 0) CapacitiveDAC
+I3 (ClockTck VCN VCP vdd! 0) ClockGenerator
+I2 (ClockCmp vdd! Vc SIP Compare 0) ComparatorCkt

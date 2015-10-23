@@ -1,0 +1,148 @@
+\documentclass[12pt,oneside]{report}
+\usepackage{latexsym}
+%\usepackage{auto-pst-pdf}
+\usepackage{pstricks}
+\usepackage{epsf}
+\usepackage{epstopdf}
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{a4wide}
+\usepackage{amsmath}
+%\usepackage{ifsym}
+%\usepackage[chapter]{algorithm}
+%\usepackage{algorithmic}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{subfig}
+\usepackage{cite}
+\usepackage{url}
+%\usepackage{hyperref}
+\usepackage[linktocpage=true]{hyperref}
+%[pdftex]{graphicx} %For pdflatex command
+%\usepackage[dvips]{graphics} %For latex command
+\parskip 5pt
+
+\def\head#1{{\medskip \bf \noindent #1}}
+\def\binom#1#2{{#1 \choose #2}}
+\def\ilh#1{\vspace{0.1in}\noindent {\bf #1}}
+\def\str#1#2{{#1}_1{#1}_2\dots{#1}_{#2}}
+\def\strg#1#2#3{{#1}_{#2}\dots{#1}_{#3}}
+\def\seq#1#2{{#1}_1,{#1}_2,\dots,{#1}_{#2}}
+\def\v#1{$#1$}
+\def\msf#1{\mbox{\it #1}}
+\newtheorem{thm}{Theorem}[chapter]
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{defn}[thm]{Definition}
+\newtheorem{cor}[thm]{Corollary}
+
+\newcommand\INPUT{\item[\textbf{Input:}]}
+\newcommand\OUTPUT{\item[\textbf{Output:}]}
+\newcommand\BEGIN{\item[\textbf{begin}]}
+\newcommand\END{\item[\textbf{end}]}
+
+\newcommand\qed{\hfill{\ensuremath{\Box}}\par\addvspace{\topsep}}
+\newenvironment{proof}{\begin{trivlist}
+	\item[\hskip\labelsep{\bfseries Proof:}]}{\hfill$\Box$\end{trivlist}}
+\newenvironment{claim}{\begin{trivlist}
+	\item[\hskip\labelsep{\bfseries Claim:}]\itshape}{\end{trivlist}}
+
+\newcommand{\picx}[2]{\setlength{\epsfxsize}{#2}\mbox{\epsffile{#1}}}
+\newcommand{\pica}[2]{\setlength{\epsfxsize}{#2}\mbox{\epsffile{#1}},angle=270}
+\newcommand{\picy}[2]{\setlength{\epsfysize}{#2}\mbox{\epsffile{#1}}}
+\newcommand{\picr}[1]{\mbox{\epsffile{#1}}}
+\renewcommand{\baselinestretch}{1}
+% 
+% \newfont{\iitblogofont}{iitblogo} 
+% \newcommand{\iitbseal}{{\iitblogofont a}}
+% \renewcommand{\bibname}{References}
+% \newlength{\logowidth}
+% \settowidth{\logowidth}{\iitbseal}
+
+% the document begins here ----------------------------------------------
+\begin{document}
+
+% the title page ----------------------------------------------------------
+\pagestyle{empty}
+\begin{center}
+{\Large Ph.D. Annual Progress Report}
+
+\vspace{1cm}
+
+{\LARGE \bf Low Power Level Crossing A to D Converter} 
+ 
+\vspace{2.0cm}
+
+by
+
+\vspace{0.5cm}
+
+{\Large \bf Janamani C. Ayyangalam}
+
+\vspace{0.25cm}
+
+08407604
+
+\vspace{1.5cm}
+
+Under the guidance of
+
+\vspace{0.5cm}
+
+{\Large \bf Prof. A. N. Chandorkar}
+
+
+\begin{figure}[h]
+\hspace{1cm}
+\vspace{1cm}
+\begin{center}
+\includegraphics[scale=0.75]{./Figures/IITBombayLogo.ps}
+\end{center}
+\vspace{1cm}
+\end{figure}
+
+Department  of Electrical Engineering \\
+\vspace{0.25cm}
+Indian Institute of Technology, Bombay\\
+\vspace{0.25cm}
+April 2015 \\
+\vspace {0.5cm}
+
+\end{center}
+%\pagebreak
+
+%-------------------------abstract---------------------------------
+\input{Abstract.tex} 
+%------------------------------------------------------------------
+
+%-------------------------content----------------------------------
+\evensidemargin -0.25in
+\newpage
+\pagenumbering{roman}
+\tableofcontents
+\listoffigures
+%\listoftables
+\clearpage
+\pagenumbering{arabic}
+%------------------------------------------------------------------
+
+
+
+\newtheorem{definition}{Definition}[chapter]
+\newtheorem{example}{Example}[chapter]
+
+% to get the name of the chapter on top of the pages
+\pagestyle{plain}
+
+\input{Chapter1.tex}
+\input{Chapter2.tex}
+\input{Chapter3.tex}
+\input{Chapter4.tex}
+\input{Chapter5.tex}
+\renewcommand\bibname{References}
+\bibliographystyle{IEEE}
+\bibliography{References}
+\addcontentsline{toc}{chapter}{References}
+%\input{Reference.tex}
+\end{document}

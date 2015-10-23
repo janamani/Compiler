@@ -1,0 +1,6 @@
+//--INFORMATION--// SPICE Reader : MDL @version 1.2.2 01/31/2003 
+
+//--WARNING--// SPICE Reader : "Netlist", Line 3 : Included files may contain dependent information.
+ Global, param, subckt, & model cards in the included files may require additional modifications.
+ Renaming problems may also occur. Please see file "SPP.map".
+//--WARNING--// SPICE Reader : Node gnd has been aliased to node 0. This may cause problems if an alias of this type already exists in the original netlist.

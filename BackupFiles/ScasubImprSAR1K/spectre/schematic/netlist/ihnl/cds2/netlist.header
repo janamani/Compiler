@@ -1,0 +1,5 @@
+
+// Library name: AnalogCircuits
+// Cell name: SampleAndHold
+// View name: schematic
+subckt SampleAndHold GND VCN VCP VDD VIN VOP

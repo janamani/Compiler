@@ -1,0 +1,5 @@
+
+// Library name: AnalogCircuits
+// Cell name: ComparatorCkt
+// View name: schematic
+subckt ComparatorCkt CLK VDD VIN VIP VOP VSS

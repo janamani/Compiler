@@ -1,0 +1,4 @@
+simulator lang=spectre
+include "mimcaps_mm.scs"
+include "n_18_mm.scs"
+include "p_18_mm.scs"

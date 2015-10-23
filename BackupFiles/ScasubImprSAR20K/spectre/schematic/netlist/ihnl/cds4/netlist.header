@@ -1,0 +1,5 @@
+
+// Library name: AnalogCircuits
+// Cell name: ClockGenerator
+// View name: schematic
+subckt ClockGenerator CLK CLKN CLKP VDD VSS

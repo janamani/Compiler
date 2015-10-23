@@ -1,0 +1,16 @@
+(apsPerfOpts preserveOption) "None"
+(apsPerfOpts mtOption) "Auto"
+(amsTurboOpts errorLevel) "Do not override"
+(amsTurboOpts numThreads) "8"
+(apsPerfOpts psrOption) "Default"
+(apsPerfOpts psrSwitch) nil
+(apsPerfOpts psrFmax) ""
+(apsPerfOpts proc_affinity) ""
+(amsTurboOpts psrSwitch) nil
+(amsTurboOpts turboSwitch) nil
+(apsPerfOpts numThreads) ""
+(apsPerfOpts envSwitch) nil
+(apsPerfOpts preserveInst) nil
+(apsPerfOpts errorLevel) "Do not override"
+(amsTurboOpts mtOption) "Manual"
+(apsPerfOpts uniMode) "APS"

@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      janamani
+HostName                       Ayyangalam
+ProcessIdentifier              31703
+ProcessCreationTime_UTC        1445407175
+ProcessCreationTime_Readable   Wed Oct 21 11:29:35 2015 IST
+AppIdentifier                  /Cad/Cadence/IC615/tools/dfII/bin/64bit/libManager
+OSType                         lnx86
+ReasonForPlacingEditLock       log file
+FilePathUsedToEditLock         /home/janamani/Compiler/CadenceFiles/libManager.log
+TimeEditLocked                 Wed Oct 21 11:30:03 2015 IST

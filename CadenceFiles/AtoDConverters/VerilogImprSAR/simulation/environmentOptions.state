@@ -1,0 +1,51 @@
+(envOpts connectRulesPath) ""
+(envOpts saveTimes) ""
+(envOpts enableArclength) nil
+(envOpts SpecialHandleForDigitalBlock) nil
+(envOpts cmd64bit) t
+(envOpts snapshot) ""
+(envOpts saveTimeInterval) ""
+(envOpts edenHostMode) "Local"
+(envOpts paramRangeCheckFile) ""
+(envOpts snapshotPrefix) ""
+(envOpts edenRemoteHost) ""
+(envOpts saveStopTime) ""
+(envOpts compileVAAsVAMS) (nil)
+(envOpts edenSubmissionStr) ""
+(envOpts SpecialHandleForDigLibDirs) nil
+(envOpts saveStartTime) ""
+(envOpts runOpts) "Batch (normal)"
+(envOpts noIrunInfoMsg) nil
+(envOpts compileCRsForPlugin) "doNotCompile"
+(envOpts SpecialHandleForDigLibFiles) nil
+(envOpts createCompleteDesignInfoFile) nil
+(envOpts pllWizardinfo) ""
+(envOpts selectRules) "Built-in"
+(envOpts edenGlobalLib) ""
+(envOpts disableRunModeInDP) nil
+(envOpts edenGlobalView) ""
+(envOpts netlisterMode) "Cellview-based"
+(envOpts compatMode) "spectre"
+(envOpts edenWaveformTool) "SimVision"
+(envOpts edenGlobalCell) "cds_globals"
+(envOpts edenCrLib) ""
+(envOpts pllPlugin) ""
+(envOpts edenCrCell) ""
+(envOpts vcoType) ""
+(envOpts sst2usecolon) nil
+(envOpts builtinuser) nil
+(envOpts edenCrView) ""
+(envOpts runElabOnly) (t nil)
+(envOpts runSimOnly) (t)
+(envOpts invocationStyle) "ncvlog, ncelab, ncsim"
+(envOpts runCompOnly) (t nil)
+(envOpts rule) "ConnRules_18V_full_fast"
+(envOpts edenRunOpts) "GUI"
+(envOpts solver) "Spectre"
+(envOpts edenSnapShotLib) ""
+(envOpts cleanSnapShot) (nil)
+(envOpts edenSaveExistingDirectories) t
+(envOpts edenSnapShotCell) ""
+(envOpts edenSnapShotView) ""
+(envOpts edenRunNetlistOnly) (t nil)
+(envOpts restartFlag) (nil)

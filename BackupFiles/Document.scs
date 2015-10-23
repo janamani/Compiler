@@ -1,0 +1,53 @@
+
+
+xsarouti_reg\[7\] ( n501			5001 n502 clockt n503 ) dffsbn
+xsarouti_reg\[6\] ( sarouti\[6\] 5002 n504 clockt n503 ) dffsbt
+xsarouti_reg\[5\] ( sarouti\[5\] 5003 n505 clockt n503 ) dffsbp 
+xsarouti_reg\[4\] ( sarouti\[4\] 5004 n506 clockt n503 ) dffsbn
+xsarouti_reg\[3\] ( sarouti\[3\] 5005 n507 clockt n503 ) dffsbn
+xsarouti_reg\[2\] ( sarouti\[2\] 5006 n508 clockt n503 ) dffsbn
+xsarouti_reg\[1\] ( sarouti\[1\] 5007 n509 clockt n503 ) dffsbn
+xsarouti_reg\[0\] ( sarouti\[0\] 5008 n510 clockt n503 ) dffsbn 
+xg501 ( n503 reset ) inv1s
+xg502 ( sarouti\[7\] n501 ) buf6ck 
+xg503 ( n502 n511 sarout\[7\] n501 n511 ) moai1s 
+xg504 ( n511 statep\[1\] statep\[0\] ) xor2  
+xg505 ( n504 n511 sarout\[6\] sarouti\[6\] n511 ) moai1s  
+xg506 ( n505 n511 sarout\[5\] sarouti\[5\] n511 ) moai1s 
+xg507 ( n506 n511 sarout\[4\] sarouti\[4\] n511 ) moai1s
+xg508 ( n507 n511 sarout\[3\] sarouti\[3\] n511 ) moai1s
+xg509 ( n508 n511 sarout\[2\] sarouti\[2\] n511 ) moai1s 
+xg510 ( n509 n511 sarout\[1\] sarouti\[1\] n511 ) moai1s 
+xg511 ( n510 n511 sarout\[0\] sarouti\[0\] n511 ) moai1s 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+  
+  
+
+ 

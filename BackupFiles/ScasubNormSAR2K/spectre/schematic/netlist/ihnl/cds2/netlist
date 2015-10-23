@@ -1,0 +1,26 @@
+    M0 (net034 VCP VDD VDD) p_18_mm w=720.0n l=180.0n nf=1 mis_flag=1 \
+        ad=3.528e-13 as=3.528e-13 pd=2.42u ps=2.42u m=(1)*(1) mf=(1)*(1)
+    M11 (net038 net034 net036 VDD) p_18_mm w=720.0n l=180.0n nf=1 \
+        mis_flag=1 ad=3.528e-13 as=3.528e-13 pd=2.42u ps=2.42u m=(1)*(1) \
+        mf=(1)*(1)
+    M10 (net036 net038 VDD VDD) p_18_mm w=720.0n l=180.0n nf=1 mis_flag=1 \
+        ad=3.528e-13 as=3.528e-13 pd=2.42u ps=2.42u m=(1)*(1) mf=(1)*(1)
+    M1 (net034 VCP net035 GND) n_18_mm w=240.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.224e-13 as=2.224e-13 pd=2.0u ps=2.0u m=(1)*(1) mf=(1)*(1)
+    M2 (net035 VCN GND GND) n_18_mm w=240.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.224e-13 as=2.224e-13 pd=2.0u ps=2.0u m=(1)*(1) mf=(1)*(1)
+    M3 (net034 net038 net035 GND) n_18_mm w=240.0n l=180.0n nf=1 \
+        mis_flag=1 ad=2.224e-13 as=2.224e-13 pd=2.0u ps=2.0u m=(1)*(1) \
+        mf=(1)*(1)
+    M4 (net035 net038 VIN GND) n_18_mm w=240.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.224e-13 as=2.224e-13 pd=2.0u ps=2.0u m=(1)*(1) mf=(1)*(1)
+    M5 (VIN net038 VOP GND) n_18_mm w=720.0n l=180.0n nf=1 mis_flag=1 \
+        ad=3.528e-13 as=3.528e-13 pd=2.42u ps=2.42u m=(1)*(1) mf=(1)*(1)
+    M6 (net038 VDD net042 GND) n_18_mm w=240.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.224e-13 as=2.224e-13 pd=2.0u ps=2.0u m=(1)*(1) mf=(1)*(1)
+    M7 (net042 VCN GND GND) n_18_mm w=240.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.224e-13 as=2.224e-13 pd=2.0u ps=2.0u m=(1)*(1) mf=(1)*(1)
+    C0 (VOP GND) mimcaps_mm w=10u l=49.11u m=1
+    C1 (net036 net035) mimcaps_mm w=10u l=49.11u m=1
+ends SampleAndHold
+// End of subcircuit definition.

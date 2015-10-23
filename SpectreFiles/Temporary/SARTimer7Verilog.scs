@@ -1,0 +1,183 @@
+xsaroutc_reg\[0\] ( saroutc\[0\] 1000 n13  clockt resetn ) dffsbn 
+xsaroutc_reg\[1\] ( saroutc\[1\] 1001 n5 	 clockt resetn ) dffsbn 
+xsaroutc_reg\[7\] ( saroutc\[7\] 1002 n118 clockt resetn ) dffsbt 
+xsaroutc_reg\[6\] ( saroutc\[6\] 1003 n123 clockt resetn ) dffsbn 
+xsaroutc_reg\[5\] ( saroutc\[5\] 1004 n243 clockt resetn ) dffsbn 
+xsaroutc_reg\[4\] ( saroutc\[4\] 1005 n126 clockt resetn ) dffsbn 
+xsaroutc_reg\[3\] ( saroutc\[3\] 1006 n238 clockt resetn ) dffsbn 
+xsaroutc_reg\[2\] ( saroutc\[2\] 1007 n128 clockt resetn ) dffsbn
+
+
+
+xready_reg ( ready n122 clockt resetn ) qdffrbs
+xsaroutd_reg\[6\] ( saroutd\[6\] 1008 n250 clockt resetn ) dffsbt 
+xsaroutd_reg\[7\] ( n180 1009 n84 clockt resetn ) dffsbn 
+xsaroutd_reg\[5\] ( 1010 n260 n275 clockt resetn ) dffsbn 
+xsaroutd_reg\[4\] ( saroutd\[4\] 1011 n81 clockt resetn ) dffsbn 
+xsaroutd_reg\[3\] ( saroutd\[3\] 1012 n77 clockt resetn ) dffsbn
+xsaroutd_reg\[2\] ( saroutd\[2\] 1013 n71 clockt resetn ) dffsbn 
+xtemptmr_reg\[3\] ( temptmr\[3\] n73 clockt resetn ) qdffrbn 
+xtemptmr_reg\[6\] ( temptmr\[6\] n72 clockt resetn ) qdffrbs 
+xsarouti_reg\[1\] ( sarouti\[1\] 1014 n264 clockt resetn ) dffsbn 
+xsarouti_reg\[2\] ( sarouti\[2\] 1015 n64 clockt resetn ) dffsbn 
+xsarouti_reg\[3\] ( sarouti\[3\] 1016 n63 clockt resetn ) dffsbn 
+xsarouti_reg\[4\] ( sarouti\[4\] 1017 n62 clockt resetn ) dffsbn 
+xsarouti_reg\[5\] ( sarouti\[5\] 1018 n61 clockt resetn ) dffsbp 
+xsarouti_reg\[6\] ( sarouti\[6\] 1019 n60 clockt resetn ) dffsbt 
+xsarouti_reg\[7\] ( n172 1020 n59 clockt resetn ) dffsbn 
+xsarouti_reg\[0\] ( sarouti\[0\] 1021 n69 clockt resetn ) dffsbn 
+xtemptmr_reg\[2\] ( temptmr\[2\] n57 clockt resetn ) qdffrbp 
+xtemptmr_reg\[5\] ( temptmr\[5\] n56 clockt resetn ) qdffrbn 
+xsaroutd_reg\[1\] ( saroutd\[1\] 1022 n52 clockt resetn ) dffsbn 
+xtemptmr_reg\[4\] ( temptmr\[4\] n43 clockt resetn ) qdffrbn 
+xtemptmr_reg\[1\] ( temptmr\[1\] n39 clockt resetn ) qdffrbn 
+xsaroutd_reg\[0\] ( saroutd\[0\] 1023 n49 clockt resetn ) dffsbn 
+xdataout_reg\[0\] ( dataout\[0\] 1024 dataout\[0\] sarout\[0\] clockt n194 resetn ) dfzsbn
+xtimerout_reg\[2\] ( timerout\[2\] n31 clockt resetn ) qdffrbn 
+xtimerout_reg\[3\] ( timerout\[3\] n30 clockt resetn ) qdffrbn 
+xtimerout_reg\[4\] ( timerout\[4\] n29 clockt resetn ) qdffrbn 
+xtimerout_reg\[6\] ( timerout\[6\] n27 clockt resetn ) qdffrbn 
+xtimerout_reg\[1\] ( timerout\[1\] n25 clockt resetn ) qdffrbn 
+xtimerout_reg\[5\] ( timerout\[5\] n28 clockt resetn ) qdffrbn 
+xtimerout_reg\[0\] ( timerout\[0\] n26 clockt resetn ) qdffrbn 
+xdataout_reg\[2\] ( dataout\[2\] sarout\[2\] dataout\[2\] clockt n193 resetn ) qdfzrbn 
+xdataout_reg\[1\] ( dataout\[1\] sarout\[1\] dataout\[1\] clockt n193 resetn ) qdfzrbn 
+xdataout_reg\[3\] ( dataout\[3\] sarout\[3\] dataout\[3\] clockt n193 resetn ) qdfzrbn 
+xdataout_reg\[4\] ( dataout\[4\] sarout\[4\] dataout\[4\] clockt n193 resetn ) qdfzrbn 
+xdataout_reg\[5\] ( dataout\[5\] sarout\[5\] dataout\[5\] clockt n193 resetn ) qdfzrbn 
+xdataout_reg\[6\] ( dataout\[6\] sarout\[6\] dataout\[6\] clockt n193 resetn ) qdfzrbn 
+xdataout_reg\[7\] ( dataout\[7\] sarout\[7\] dataout\[7\] clockt n193 resetn ) qdfzrbn
+xtemptmr_reg\[0\] ( temptmr\[0\] n2 clockt resetn ) qdffrbp
+xflagtmr_reg ( 1026 n259 n234 clockt resetn ) dffrbn
+
+
+
+
+xg454 ( sarouti\[7\] n172 ) buf4 
+xg462 ( saroutd\[7\] n180 ) buf4 
+xg461 ( resetp reset ) buf1 
+xg526 ( n119 n96 ) inv1s 
+xg527 ( n96 statep\[1\] statep\[0\] ) nd2p 
+xg528 ( n95 statep\[1\] ) inv3 
+xg529 ( n94 statep\[0\] ) inv3 
+ 
+xg535 ( n122 n235 n92 ) nd2f 
+xg536 ( n92 n91 n89 temptmr\[6\] ) nd3p 
+xg537 ( clockdcr clockt resetp n88 ) nr3p 
+xg538 ( n149 n91 ) inv2 
+xg539 ( n91 temptmr\[0\] temptmr\[2\] temptmr\[3\] temptmr\[1\] ) an4p 
+ 
+xg549 ( n89 temptmr\[5\] temptmr\[4\] ) an2 
+xg550 ( n88 n119 n236 ) nr2 
+xg551 ( resetn resetp ) inv2 
+xg555 ( n128 sarout\[2\] ) inv1 
+xg557 ( n126 sarout\[4\] ) inv1s 
+xg558 ( n118 sarout\[7\] ) inv1s 
+xg559 ( n123 sarout\[6\] ) inv1s 
+
+xg1501 ( n84 n248 n33 ) nd2 
+
+xg1505 ( n81 n40 n78 ) nd2s 
+xg1507 ( n78 n241 n213 n214 saroutd\[4\] ) aoi22s 
+ 
+xg1509 ( n77 n40 n75 ) nd2 
+xg1511 ( n75 n213 n66 n205 saroutd\[3\] ) aoi22s 
+
+xg1524 ( n73 n68 n122 ) nr2 
+xg1525 ( n72 n67 n122 ) nr2 
+xg1526 ( n71 n40 n58 ) nd2 
+
+xg1530 ( n69 n55 n53 ) nd2 
+xg1531 ( n68 temptmr\[3\] n3 ) xnr2hs 
+xg1532 ( n67 temptmr\[6\] n41 ) xor2hs 
+xg1533 ( n66 n237 sarout\[3\] n237 sarout\[3\] ) moai1s 
+xg1535 ( n64 n214 sarout\[2\] n205 sarouti\[2\] ) moai1s 
+xg1536 ( n63 n205 sarout\[3\] n205 sarouti\[3\] ) moai1s 
+xg1537 ( n62 n221 sarout\[4\] n205 sarouti\[4\] ) moai1 
+xg1538 ( n61 n221 sarout\[5\] n205 sarouti\[5\] ) moai1 
+xg1539 ( n60 n221 sarout\[6\] n205 sarouti\[6\] ) moai1 
+xg1540 ( n59 n221 sarout\[7\] n205 n172 ) moai1 
+xg1541 ( n58 n213 n285 n205 saroutd\[2\] ) aoi22s 
+
+xg1543 ( n57 n46 n122 ) nr2 
+xg1544 ( n56 n45 n122 ) nr2 
+xg1545 ( n55 n213 n13 ) nd2 
+xg1547 ( n53 n213 n48 n205 sarouti\[0\] ) aoi22s 
+
+xg1549 ( n52 n40 n44 ) nd2 
+
+xg1554 ( n49 n40 n32 ) nd2 
+xg1555 ( n48 n265 n35 ) nr2 
+xg1557 ( n46 temptmr\[2\] n17 ) xor2hs 
+xg1558 ( n45 temptmr\[5\] n0 ) xnr2 
+xg1559 ( n44 n213 n24 n205 saroutd\[1\] ) aoi22s 
+xg1560 ( n43 n34 n122 ) nr2 
+xg1562 ( n41 n0 temptmr\[5\] ) nd2s 
+xg1563 ( n40 n22 n37 ) nd2p 
+xg1565 ( n39 n1 n122 ) nr2 
+ 
+ 
+xg1582 ( n37 sarout\[2\] sarout\[3\] sarout\[4\] sarout\[7\] sarout\[5\] sarout\[1\] 
++ ) nr6 
+ 
+xg1586 ( n35 n19 sarout\[4\] sarout\[5\] ) nd3 
+xg1587 ( n34 temptmr\[4\] n149 ) xor2 
+xg1588 ( n33 n205 n180 n213 n118 ) aoi22s 
+xg1589 ( n32 n205 saroutd\[0\] n213 sarout\[0\] ) aoi22s 
+xg1590 ( n31 n122 timerout\[2\] temptmr\[2\] ) mux2 
+xg1591 ( n30 n122 timerout\[3\] temptmr\[3\] ) mux2 
+xg1592 ( n29 n122 timerout\[4\] temptmr\[4\] ) mux2 
+xg1593 ( n28 n122 timerout\[5\] temptmr\[5\] ) mux2 
+xg1594 ( n27 n122 timerout\[6\] temptmr\[6\] ) mux2 
+xg1595 ( n26 n122 timerout\[0\] temptmr\[0\] ) mux2 
+xg1596 ( n25 n122 timerout\[1\] temptmr\[1\] ) mux2 
+xg1598 ( n24 n13 sarout\[1\] n13 sarout\[1\] ) moai1s 
+xg1601 ( n21 n22 ) inv1s 
+xg1602 ( n22 sarout\[6\] n212 ) nr2p 
+xg1604 ( n19 n238 n128 ) nr2 
+xg1606 ( n17 temptmr\[1\] temptmr\[0\] ) nd2 
+xg1607 ( n16 n5 n13 ) nd2t 
+xg1613 ( n13 sarout\[0\] ) inv2 
+xg1614 ( n5 sarout\[1\] ) inv3 
+xg2 ( n3 temptmr\[2\] n17 ) an2b1s 
+xg1631 ( n2 n122 temptmr\[0\] ) or2b1s 
+xg1632 ( n1 temptmr\[1\] temptmr\[0\] ) xnr2hs 
+xfopt1638 ( n194 n253 ) inv2ck 
+xfopt1639 ( n193 n194 ) inv3ck 
+xfopt1644 ( n205 n212 ) buf6 
+xfopt1645 ( n212 n224 ) inv2 
+xfopt1649 ( n221 n213 ) inv2 
+xfopt1650 ( n213 n214 ) inv3 
+xfopt1651 ( n214 n224 ) inv3 
+xfopt1652 ( n224 n270 ) buf2 
+xg1655 ( n234 n233 n122 ) or2s 
+xg1 ( n233 n232 ) buf1s 
+xg1656 ( n232 reset n270 n252 ) aoi12hp 
+xg1658 ( n235 n232 n259 ) nd2 
+xg1659 ( n236 n253 n232 ) nr2 
+xg1660 ( n237 sarout\[2\] n16 ) nr2f 
+xg1661 ( n238 sarout\[3\] ) inv2 
+xg1662 ( n241 n239 sarout\[4\] ) xor2hs 
+xg1664 ( n239 n237 n238 ) nd2t 
+xg1667 ( n245 n243 n244 ) xor2hs 
+xg1668 ( n243 sarout\[5\] ) inv1s 
+xg1669 ( n244 sarout\[4\] n239 ) nr2t 
+xg1670 ( n248 n271 n22 ) nd2s 
+xg1672 ( n250 n272 n40 n271 n21 ) oai112h 
+xg1676 ( n252 n251 n95 ) nd2p 
+xg3 ( n251 dcr inc ) or2p 
+xg1677 ( n253 n95 n94 ) nd2 
+xg1679 ( 1025 n0 temptmr\[4\] n149 ) ha2 
+ 
+xg13 ( saroutd\[5\] n260 ) inv2 
+xg1686 ( n264 n205 n5 sarouti\[1\] ) mux2 
+xg1687 ( n265 sarout\[1\] sarout\[6\] sarout\[7\] ) nd3s 
+xg1689 ( n23 saroutd\[6\] n214 ) an2t 
+xg19 ( n270 n269 n96 ) nd2f 
+xg23 ( n269 n95 n94 ) nd2f 
+xg27 ( n272 n23 n271 n213 sarout\[6\] ) aoi13h 
+xg28 ( n271 n244 n243 ) an2t 
+xg26 ( n275 n274 n40 ) nd2s 
+xg1690 ( n274 n245 n213 n214 saroutd\[5\] ) aoi22s 
+xg1692 ( n285 n16 sarout\[2\] ) xor2 
+ends sartimer7verilog

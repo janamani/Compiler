@@ -1,0 +1,102 @@
+
+ 	 Check Design Report
+	 -------------------- 
+
+  Unresolved References & Empty Modules
+  ------------------------------------- 
+No unresolved references in design 'SARTimer7Verilog_DATA8_TIMER7'
+
+No empty modules in design 'SARTimer7Verilog_DATA8_TIMER7'
+
+ Unloaded Pin(s), Port(s)
+ -------------------------
+No unloaded sequential element in 'SARTimer7Verilog_DATA8_TIMER7'
+
+No unloaded port in 'SARTimer7Verilog_DATA8_TIMER7'
+
+ Assigns
+ ------- 
+Encountered an assign statement at port '/designs/SARTimer7Verilog_DATA8_TIMER7/ports_out/ResetP' in design SARTimer7Verilog_DATA8_TIMER7
+Encountered an assign statement at port '/designs/SARTimer7Verilog_DATA8_TIMER7/ports_out/ResetN' in design SARTimer7Verilog_DATA8_TIMER7
+Encountered an assign statement at port '/designs/SARTimer7Verilog_DATA8_TIMER7/ports_out/SAROutIS' in design SARTimer7Verilog_DATA8_TIMER7
+Encountered an assign statement at port '/designs/SARTimer7Verilog_DATA8_TIMER7/ports_out/SAROutDS' in design SARTimer7Verilog_DATA8_TIMER7
+Encountered an assign statement at port '/designs/SARTimer7Verilog_DATA8_TIMER7/ports_out/SAROutIG' in design SARTimer7Verilog_DATA8_TIMER7
+Encountered an assign statement at port '/designs/SARTimer7Verilog_DATA8_TIMER7/ports_out/SAROutDG' in design SARTimer7Verilog_DATA8_TIMER7
+Encountered an assign statement at port '/designs/SARTimer7Verilog_DATA8_TIMER7/ports_out/SAROutCG' in design SARTimer7Verilog_DATA8_TIMER7
+Encountered an assign statement at port '/designs/SARTimer7Verilog_DATA8_TIMER7/ports_out/ClockDcr' in design SARTimer7Verilog_DATA8_TIMER7
+Encountered an assign statement at port '/designs/SARTimer7Verilog_DATA8_TIMER7/ports_out/ClockInc' in design SARTimer7Verilog_DATA8_TIMER7
+Encountered an assign statement at port '/designs/SARTimer7Verilog_DATA8_TIMER7/ports_out/ClockTck' in design SARTimer7Verilog_DATA8_TIMER7
+Total number of assign statements in design 'SARTimer7Verilog_DATA8_TIMER7' : 10
+
+ Undriven Port(s)/Pin(s)
+ ------------------------
+No undriven combinational pin in 'SARTimer7Verilog_DATA8_TIMER7'
+
+No undriven sequential pin in 'SARTimer7Verilog_DATA8_TIMER7'
+
+No undriven hierarchical pin in 'SARTimer7Verilog_DATA8_TIMER7'
+
+No undriven port in 'SARTimer7Verilog_DATA8_TIMER7'
+
+ Multidriven Port(s)/Pin(s)
+--------------------------
+
+No multidriven combinational pin in 'SARTimer7Verilog_DATA8_TIMER7'
+
+No multidriven sequential pin in 'SARTimer7Verilog_DATA8_TIMER7'
+
+No multidriven hierarchical pin in 'SARTimer7Verilog_DATA8_TIMER7'
+
+No multidriven ports in 'SARTimer7Verilog_DATA8_TIMER7'
+
+No multidriven unloaded nets in 'SARTimer7Verilog_DATA8_TIMER7'
+
+  Constant Pin(s)
+  ----------------
+No constant combinational pin(s) in design 'SARTimer7Verilog_DATA8_TIMER7'
+
+No constant sequential pin(s) in design 'SARTimer7Verilog_DATA8_TIMER7'
+
+No constant hierarchical pin(s) in design 'SARTimer7Verilog_DATA8_TIMER7'
+
+No constant connected ports in design 'SARTimer7Verilog_DATA8_TIMER7'
+
+  Preserved instances(s)
+  ----------------
+No preserved combinational instance(s) in design 'SARTimer7Verilog_DATA8_TIMER7'
+No preserved sequential instance(s) in design 'SARTimer7Verilog_DATA8_TIMER7'
+No preserved hierarchical instance(s) in design 'SARTimer7Verilog_DATA8_TIMER7'
+
+Libcells with no corresponding LEF
+----------------------------------
+No libcell(s) found.
+
+LEF cells with no corresponding libcell
+---------------------------------------
+
+No physical (LEF) cells found.
+
+ Summary
+ ------- 
+
+                Name                 Total 
+-------------------------------------------
+Unresolved References                    0 
+Empty Modules                            0 
+Unloaded Port(s)                         0 
+Unloaded Sequential Pin(s)               0 
+Assigns                                 10 
+Undriven Port(s)                         0 
+Undriven Leaf Pin(s)                     0 
+Undriven hierarchical pin(s)             0 
+Multidriven Port(s)                      0 
+Multidriven Leaf Pin(s)                  0 
+Multidriven hierarchical Pin(s)          0 
+Multidriven unloaded net(s)              0 
+Constant Port(s)                         0 
+Constant Leaf Pin(s)                     0 
+Constant hierarchical Pin(s)             0 
+Preserved leaf instance(s)               0 
+Preserved hierarchical instance(s)       0 
+Libcells with no LEF cell                0 
+Physical (LEF) cells with no libcell     0 

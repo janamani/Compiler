@@ -1,0 +1,229 @@
+module SARFastVerilog(Clock, Reset, Inc, Dcr, Compare, DataOut, ClockCmp, StateP, SAROut);
+
+	parameter DATA = 8;
+
+	input [DATA-1:0] DataOut;
+	input Clock, Reset, Inc, Dcr, Compare;
+
+	output reg ClockCmp;
+	output reg [1:0] StateP;
+ 	output reg [DATA-1:0] SAROut;
+
+ 	reg [1:0] StateN, CheckID;
+ 	reg [DATA-1:0] SAR, TempSAR;
+
+	integer M, N;
+	reg FlagM, FlagN;
+	reg [DATA-1:0] SetSAR, SetTempSAR;
+
+	always@ (Reset or Clock or StateP) begin
+		if (Reset == 1'b1) begin
+			ClockCmp <= 1'b0; end
+		else begin
+			if (StateP == 2'b00) begin
+				ClockCmp <= 1'b0; end
+			else begin
+				ClockCmp <= ~Clock; end
+		end
+	end
+
+	always @ (Reset or SAR or TempSAR) begin
+		if (Reset == 1'b1) begin
+			SAROut <= {DATA{1'b0}}; end
+		else begin
+			SAROut <=  (TempSAR | SAR); end
+	end
+
+	always @ (posedge Reset or posedge Clock) begin
+		if (Reset == 1'b1) begin
+			StateP <= 2'b11; end
+		else begin
+			StateP <= StateN; end
+	end
+
+	always @ (posedge Reset or posedge Clock) begin
+ 		if(Reset == 1'b1) begin
+			CheckID <= 2'b00; end
+		else begin
+ 			case (StateP)
+				2'b00: begin
+							CheckID <= {Inc, Dcr}; end
+				2'b11: begin
+							CheckID <= 2'b00; end
+			  default: begin
+							CheckID <= CheckID; end
+			endcase
+		end
+	end
+
+	always @ (Reset or StateP or Inc or Dcr or CheckID or DataOut or SAR) begin
+ 		if(Reset == 1'b1) begin
+			StateN <= 2'b11; end
+		else begin
+	 		case (StateP)		 
+				2'b00: begin
+							if (Inc == 1'b1 || Dcr ==1'b1) begin
+								StateN <= 2'b01; end
+							else begin
+								StateN <= 2'b00; end
+						end
+				2'b01: begin
+							case ({CheckID})
+								2'b01: begin
+											if (DataOut == {DATA{1'b0}}) begin
+												StateN <= 2'b11; end
+											else begin
+												StateN <= 2'b10; end
+										end
+								2'b10: begin
+											if (DataOut == {DATA{1'b1}}) begin
+												StateN <= 2'b11; end
+											else begin
+												StateN <= 2'b10; end
+										end
+			  				  default: begin 
+											StateN <= 2'b11;
+										end
+							endcase
+						end
+				2'b10: begin
+							if (SAR == {{DATA-1{1'b0}},1'b1}) begin 
+								StateN <= 2'b11; end
+							else begin
+								StateN <= 2'b10; end							
+						end
+			  default: begin
+							StateN <= 2'b00;
+						end
+			endcase
+		end
+	end
+
+	always @ (posedge Reset or posedge Clock) begin 
+ 		if(Reset == 1'b1) begin
+			FlagM = 1'b0;
+			SAR <= {DATA{1'b0}};
+			SetSAR = {DATA{1'b0}}; end
+		else begin
+ 			case (StateP)
+				2'b00: begin 
+							FlagM = 1'b0;
+							SAR <= {DATA{1'b0}};
+							SetSAR = {DATA{1'b0}};
+						end
+				2'b01: begin 
+							case ({CheckID})
+								2'b01: begin
+											FlagM = 1'b0;
+											SetSAR = {DATA{1'b0}};
+											for (M = DATA-1; M >= 0; M = M-1) begin
+												if (DataOut[M] == 1'b1 && FlagM == 1'b0) begin
+													SetSAR[M] = 1'b1;
+													FlagM = 1'b1; end
+												else begin
+													SetSAR[M] = 1'b0; end
+											end
+											SAR <= SetSAR;
+										end
+								2'b10: begin
+											FlagM = 1'b0;
+											SetSAR = {DATA{1'b0}};
+											for (M = DATA-1; M >= 0; M = M-1) begin
+												if (DataOut[M] == 1'b0 && FlagM == 1'b0) begin
+													SetSAR[M] = 1'b1;
+													FlagM = 1'b1; end
+												else begin
+													SetSAR[M] = 1'b0; end
+											end
+											SAR <= SetSAR;
+										end
+							  default: begin 
+											FlagM = 1'b0;
+											SAR <= {DATA{1'b0}};
+											SetSAR = {DATA{1'b0}}; 		
+										end
+							endcase
+						end
+			2'b10: begin 
+						FlagM = 1'b0;
+						SetSAR = {DATA{1'b0}};
+						SAR <= SAR >>1; 
+						end
+			default: begin
+							FlagM = 1'b0;
+							SAR <= {DATA{1'b0}};
+							SetSAR = {DATA{1'b0}};
+						end
+			endcase		
+		end
+	end
+
+	always @ (posedge Reset or posedge Clock) begin 
+ 		if(Reset == 1'b1) begin
+			FlagN = 1'b0;
+			TempSAR <= {DATA{1'b0}}; 
+			SetTempSAR = {DATA{1'b0}}; end
+		else begin
+ 			case (StateP)
+				2'b00: begin 
+							FlagN = 1'b0;
+							TempSAR <= TempSAR;
+							SetTempSAR = {DATA{1'b0}};
+						end
+				2'b01: begin 
+							case ({CheckID})
+								2'b01: begin
+											if (DataOut == {DATA{1'b0}}) begin
+												FlagN = 1'b0;
+												TempSAR <= TempSAR;
+												SetTempSAR = {DATA{1'b0}}; end
+											else begin
+												FlagN = 1'b0;
+												SetTempSAR = {DATA{1'b0}};
+												for (N = DATA-1; N >= 0; N = N-1) begin
+													if (DataOut[N] == 1'b0 && FlagN == 1'b0) begin
+														SetTempSAR[N] = DataOut[N]; end
+													if (DataOut[N] == 1'b1 || FlagN == 1'b1) begin
+														FlagN = 1'b1;
+														SetTempSAR[N] = 1'b0; end
+												end
+												TempSAR <= SetTempSAR;
+											end
+										end
+								2'b10: begin
+											if (DataOut == {DATA{1'b1}}) begin
+												FlagN = 1'b0;
+												TempSAR <= TempSAR;
+												SetTempSAR = {DATA{1'b0}}; end
+											else begin
+												FlagN = 1'b0;
+												SetTempSAR = {DATA{1'b0}};
+												for (N = DATA-1; N >= 0; N = N-1) begin
+													if (DataOut[N] == 1'b1 && FlagN == 1'b0) begin
+														SetTempSAR[N] = DataOut[N];end
+													if (DataOut[N] == 1'b0 || FlagN == 1'b1) begin
+														FlagN = 1'b1;
+														SetTempSAR[N] = 1'b0; end
+												end
+												TempSAR <= SetTempSAR;
+											end
+										end
+							   default: begin 
+												FlagN = 1'b0;
+												TempSAR <= TempSAR;
+												SetTempSAR = {DATA{1'b0}};
+										end
+							endcase
+						end
+			  default: begin 
+							FlagN = 1'b0;
+							SetTempSAR = {DATA{1'b0}};
+							if (Compare == 1'b1) begin
+								TempSAR <= TempSAR | SAR; end
+							else begin
+								TempSAR <= TempSAR; end	
+						end 
+			endcase		
+		end
+	end
+endmodule

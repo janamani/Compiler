@@ -1,0 +1,2088 @@
+HEADER
+"PSFversion" "1.00"
+"simulator" "spectre"
+"version" "11.1.0.487.isr13"
+"date" "9:49:42 PM, Tue Oct 13, 2015"
+"design" "// Generated for: spectre"
+"analysis type" "info.subckts"
+"analysis name" "subckts"
+"analysis description" "Circuit Information"
+"xVecSorted" "unknown"
+"tolerance.relative" 0.00100000
+TYPE
+"subckt" STRUCT(
+"subckt_params" STRING *
+"subckt_terminals" STRING *
+) PROP(
+"key" "sub"
+)
+VALUE
+"n_l34w500_33_rf" "subckt" (
+""
+""
+)
+"p_l18w500_18_rf" "subckt" (
+""
+""
+)
+"p_l34w500_33_rf" "subckt" (
+""
+""
+)
+"n_po7w500_18_rf" "subckt" (
+""
+""
+)
+"rnppo_mm" "subckt" (
+""
+""
+)
+"rnhr1000_mm" "subckt" (
+""
+""
+)
+"rnhr_rf" "subckt" (
+""
+""
+)
+"n_po7w500_33_rf" "subckt" (
+""
+""
+)
+"rnppo_rf" "subckt" (
+""
+""
+)
+"ComparatorCkt" "subckt" (
+""
+"CLK VDD VIN VIP VOP VSS"
+)
+"pad_rf" "subckt" (
+""
+""
+)
+"rnnpo_rf" "subckt" (
+""
+""
+)
+"mimcapm_rf" "subckt" (
+""
+""
+)
+"DriverNetWork" "subckt" (
+""
+"D0 D1 D2 D3 D4 D5 D6 D7 DG Q0 Q1 Q2 Q3 Q4 Q5 Q6 Q7 QG VDD VREFN VREFP VSS"
+)
+"rnnpo_mm" "subckt" (
+""
+""
+)
+"CapacitiveDAC" "subckt" (
+""
+"D0 D1 D2 D3 D4 D5 D6 D7 DG ResetN ResetP VDAC VDD VREFN VSS"
+)
+"vardiop_rf" "subckt" (
+""
+""
+)
+"n_l18w500_18_rf" "subckt" (
+""
+""
+)
+"mimcaps_mm" "subckt" (
+"Cmf ctc1 cvc1 w temper Cm l"
+"n2 n1"
+)
+"p_po7w500_18_rf" "subckt" (
+""
+""
+)
+"varmis_18_rf" "subckt" (
+""
+""
+)
+"SampleAndHold" "subckt" (
+""
+"GND VCN VCP VDD VIN VOP"
+)
+"SARNormScasub" "subckt" (
+""
+"Clock ClockCmp ClockTck Compare DataOut<0> DataOut<1> DataOut<2> DataOut<3> DataOut<4> DataOut<5> DataOut<6> DataOut<7> Ready Reset ResetN ResetP SAROut<0> SAROut<1> SAROut<2> SAROut<3> SAROut<4> SAROut<5> SAROut<6> SAROut<7> SAROutG vcc! 0"
+)
+"SARNormScasub.aoi12t" "subckt" (
+""
+""
+)
+"SARNormScasub.mux4s" "subckt" (
+""
+""
+)
+"SARNormScasub.oai12t" "subckt" (
+""
+""
+)
+"SARNormScasub.mulbep" "subckt" (
+""
+""
+)
+"SARNormScasub.dly4" "subckt" (
+""
+""
+)
+"SARNormScasub.muxb2t" "subckt" (
+""
+""
+)
+"SARNormScasub.nr3p" "subckt" (
+""
+""
+)
+"SARNormScasub.mux2" "subckt" (
+""
+""
+)
+"SARNormScasub.ram3s" "subckt" (
+""
+""
+)
+"SARNormScasub.xnr3p" "subckt" (
+""
+""
+)
+"SARNormScasub.dbzrbn" "subckt" (
+""
+""
+)
+"SARNormScasub.nd2p" "subckt" (
+""
+"o i1 i2 vcc! 0"
+)
+"SARNormScasub.antenna" "subckt" (
+""
+""
+)
+"SARNormScasub.delc" "subckt" (
+""
+""
+)
+"SARNormScasub.nr2p" "subckt" (
+""
+""
+)
+"SARNormScasub.nr2" "subckt" (
+""
+"o i1 i2 vcc! 0"
+)
+"SARNormScasub.an3b1s" "subckt" (
+""
+""
+)
+"SARNormScasub.buf6ck" "subckt" (
+""
+""
+)
+"SARNormScasub.jkzp" "subckt" (
+""
+""
+)
+"SARNormScasub.mao222t" "subckt" (
+""
+""
+)
+"SARNormScasub.mux2s" "subckt" (
+""
+""
+)
+"SARNormScasub.nd8" "subckt" (
+""
+""
+)
+"SARNormScasub.ao222p" "subckt" (
+""
+""
+)
+"SARNormScasub.oa222p" "subckt" (
+""
+""
+)
+"SARNormScasub.gcketp" "subckt" (
+""
+""
+)
+"SARNormScasub.mxl2f" "subckt" (
+""
+""
+)
+"SARNormScasub.mao222p" "subckt" (
+""
+""
+)
+"SARNormScasub.aoi12hs" "subckt" (
+""
+""
+)
+"SARNormScasub.oai12hs" "subckt" (
+""
+""
+)
+"SARNormScasub.buf12ck" "subckt" (
+""
+""
+)
+"SARNormScasub.gcketn" "subckt" (
+""
+""
+)
+"SARNormScasub.mux5" "subckt" (
+""
+""
+)
+"SARNormScasub.tie0" "subckt" (
+""
+""
+)
+"SARNormScasub.facs2p" "subckt" (
+""
+""
+)
+"SARNormScasub.aoi222" "subckt" (
+""
+""
+)
+"SARNormScasub.oai222" "subckt" (
+""
+""
+)
+"SARNormScasub.gcbesn" "subckt" (
+""
+""
+)
+"SARNormScasub.gckett" "subckt" (
+""
+""
+)
+"SARNormScasub.dfzrbt" "subckt" (
+""
+""
+)
+"SARNormScasub.ram3" "subckt" (
+""
+""
+)
+"SARNormScasub.fillercc" "subckt" (
+""
+""
+)
+"SARNormScasub.dlhp" "subckt" (
+""
+""
+)
+"SARNormScasub.ao222" "subckt" (
+""
+""
+)
+"SARNormScasub.jkzrbp" "subckt" (
+""
+""
+)
+"SARNormScasub.oa222" "subckt" (
+""
+""
+)
+"SARNormScasub.fa2" "subckt" (
+""
+""
+)
+"SARNormScasub.buf4" "subckt" (
+""
+"o i vcc! 0"
+)
+"SARNormScasub.aoi22s" "subckt" (
+""
+""
+)
+"SARNormScasub.nd2s" "subckt" (
+""
+""
+)
+"SARNormScasub.oai22s" "subckt" (
+""
+""
+)
+"SARNormScasub.aoi222hs" "subckt" (
+""
+""
+)
+"SARNormScasub.gcbesf" "subckt" (
+""
+""
+)
+"SARNormScasub.aoi112t" "subckt" (
+""
+""
+)
+"SARNormScasub.inv6" "subckt" (
+""
+""
+)
+"SARNormScasub.mulpap" "subckt" (
+""
+""
+)
+"SARNormScasub.oai112t" "subckt" (
+""
+""
+)
+"SARNormScasub.xnr3s" "subckt" (
+""
+""
+)
+"SARNormScasub.dfzcrbp" "subckt" (
+""
+""
+)
+"SARNormScasub.muxb4s" "subckt" (
+""
+""
+)
+"SARNormScasub.qdfzrbs" "subckt" (
+""
+""
+)
+"SARNormScasub.an3b1t" "subckt" (
+""
+""
+)
+"SARNormScasub.buf1ck" "subckt" (
+""
+""
+)
+"SARNormScasub.dfzrsbn" "subckt" (
+""
+""
+)
+"SARNormScasub.mux3" "subckt" (
+""
+""
+)
+"SARNormScasub.aoi222p" "subckt" (
+""
+""
+)
+"SARNormScasub.mxl3s" "subckt" (
+""
+""
+)
+"SARNormScasub.oai222p" "subckt" (
+""
+""
+)
+"SARNormScasub.qdfzrsbp" "subckt" (
+""
+""
+)
+"SARNormScasub.qdfzp" "subckt" (
+""
+""
+)
+"SARNormScasub.fa1t" "subckt" (
+""
+""
+)
+"SARNormScasub.nd3" "subckt" (
+""
+"o i1 i2 i3 vcc! 0"
+)
+"SARNormScasub.xor4p" "subckt" (
+""
+""
+)
+"SARNormScasub.an3b2" "subckt" (
+""
+""
+)
+"SARNormScasub.jkzrbt" "subckt" (
+""
+""
+)
+"SARNormScasub.muxb2p" "subckt" (
+""
+""
+)
+"SARNormScasub.ao112s" "subckt" (
+""
+""
+)
+"SARNormScasub.jkzt" "subckt" (
+""
+""
+)
+"SARNormScasub.oa112s" "subckt" (
+""
+""
+)
+"SARNormScasub.gckesp" "subckt" (
+""
+""
+)
+"SARNormScasub.an4s" "subckt" (
+""
+""
+)
+"SARNormScasub.dbfrsbp" "subckt" (
+""
+""
+)
+"SARNormScasub.mux2f" "subckt" (
+""
+""
+)
+"SARNormScasub.or2p" "subckt" (
+""
+""
+)
+"SARNormScasub.filler4c" "subckt" (
+""
+""
+)
+"SARNormScasub.pui" "subckt" (
+""
+""
+)
+"SARNormScasub.jkfp" "subckt" (
+""
+""
+)
+"SARNormScasub.an2b1p" "subckt" (
+""
+""
+)
+"SARNormScasub.an4b1t" "subckt" (
+""
+""
+)
+"SARNormScasub.qdlhs" "subckt" (
+""
+""
+)
+"SARNormScasub.aoi222t" "subckt" (
+""
+""
+)
+"SARNormScasub.invt2" "subckt" (
+""
+""
+)
+"SARNormScasub.oai222t" "subckt" (
+""
+""
+)
+"SARNormScasub.inv1ck" "subckt" (
+""
+""
+)
+"SARNormScasub.moai1p" "subckt" (
+""
+""
+)
+"SARNormScasub.nr2t" "subckt" (
+""
+""
+)
+"SARNormScasub.gcketf" "subckt" (
+""
+""
+)
+"SARNormScasub.qdffn" "subckt" (
+""
+""
+)
+"SARNormScasub.dffp" "subckt" (
+""
+""
+)
+"SARNormScasub.bhd1" "subckt" (
+""
+""
+)
+"SARNormScasub.an4b1s" "subckt" (
+""
+""
+)
+"SARNormScasub.buf2ck" "subckt" (
+""
+""
+)
+"SARNormScasub.facs1s" "subckt" (
+""
+""
+)
+"SARNormScasub.ao12t" "subckt" (
+""
+""
+)
+"SARNormScasub.dbzrsbt" "subckt" (
+""
+""
+)
+"SARNormScasub.nd3ht" "subckt" (
+""
+""
+)
+"SARNormScasub.oa12t" "subckt" (
+""
+""
+)
+"SARNormScasub.or2" "subckt" (
+""
+"o i1 i2 vcc! 0"
+)
+"SARNormScasub.xor2" "subckt" (
+""
+""
+)
+"SARNormScasub.ha1" "subckt" (
+""
+""
+)
+"SARNormScasub.invt1" "subckt" (
+""
+""
+)
+"SARNormScasub.dfzclrbt" "subckt" (
+""
+""
+)
+"SARNormScasub.mxl2hs" "subckt" (
+""
+""
+)
+"SARNormScasub.mxl3" "subckt" (
+""
+""
+)
+"SARNormScasub.mxl3t" "subckt" (
+""
+""
+)
+"SARNormScasub.aoi13" "subckt" (
+""
+""
+)
+"SARNormScasub.jkfrbn" "subckt" (
+""
+""
+)
+"SARNormScasub.oai13" "subckt" (
+""
+""
+)
+"SARNormScasub.an3" "subckt" (
+""
+""
+)
+"SARNormScasub.dffsbn" "subckt" (
+""
+""
+)
+"SARNormScasub.qdlhsp" "subckt" (
+""
+""
+)
+"SARNormScasub.an2b1s" "subckt" (
+""
+"o i1 b1 vcc! 0"
+)
+"SARNormScasub.dfcrbn" "subckt" (
+""
+""
+)
+"SARNormScasub.mux3p" "subckt" (
+""
+""
+)
+"SARNormScasub.nr5" "subckt" (
+""
+""
+)
+"SARNormScasub.dffrbp" "subckt" (
+""
+""
+)
+"SARNormScasub.dffsbt" "subckt" (
+""
+""
+)
+"SARNormScasub.dfcrbp" "subckt" (
+""
+""
+)
+"SARNormScasub.mulbet" "subckt" (
+""
+""
+)
+"SARNormScasub.dftrbp" "subckt" (
+""
+""
+)
+"SARNormScasub.xor3p" "subckt" (
+""
+""
+)
+"SARNormScasub.nr3" "subckt" (
+""
+""
+)
+"SARNormScasub.dffrsbp" "subckt" (
+""
+""
+)
+"SARNormScasub.inv2ck" "subckt" (
+""
+""
+)
+"SARNormScasub.xnr2p" "subckt" (
+""
+""
+)
+"SARNormScasub.ram2" "subckt" (
+""
+""
+)
+"SARNormScasub.facs1p" "subckt" (
+""
+""
+)
+"SARNormScasub.bufb3" "subckt" (
+""
+""
+)
+"SARNormScasub.dbhrbp" "subckt" (
+""
+""
+)
+"SARNormScasub.or3b1" "subckt" (
+""
+""
+)
+"SARNormScasub.or3p" "subckt" (
+""
+""
+)
+"SARNormScasub.muxb4" "subckt" (
+""
+""
+)
+"SARNormScasub.dfzrbn" "subckt" (
+""
+""
+)
+"SARNormScasub.or3" "subckt" (
+""
+""
+)
+"SARNormScasub.buft3" "subckt" (
+""
+""
+)
+"SARNormScasub.dffrsbn" "subckt" (
+""
+""
+)
+"SARNormScasub.moai1hp" "subckt" (
+""
+""
+)
+"SARNormScasub.qdfzrsbn" "subckt" (
+""
+""
+)
+"SARNormScasub.maoi1hp" "subckt" (
+""
+""
+)
+"SARNormScasub.qdlhsn" "subckt" (
+""
+""
+)
+"SARNormScasub.jkzn" "subckt" (
+""
+""
+)
+"SARNormScasub.dbfrsbt" "subckt" (
+""
+""
+)
+"SARNormScasub.inv1" "subckt" (
+""
+""
+)
+"SARNormScasub.or2b1p" "subckt" (
+""
+""
+)
+"SARNormScasub.dbzrsbp" "subckt" (
+""
+""
+)
+"SARNormScasub.aoi22p" "subckt" (
+""
+""
+)
+"SARNormScasub.dbzrbt" "subckt" (
+""
+""
+)
+"SARNormScasub.delb" "subckt" (
+""
+""
+)
+"SARNormScasub.oai22p" "subckt" (
+""
+""
+)
+"SARNormScasub.dbhrbs" "subckt" (
+""
+""
+)
+"SARNormScasub.or3b1t" "subckt" (
+""
+""
+)
+"SARNormScasub.qdlhrbs" "subckt" (
+""
+""
+)
+"SARNormScasub.qdffrbn" "subckt" (
+""
+"q d ck rb vcc! 0"
+)
+"SARNormScasub.aoi12h" "subckt" (
+""
+""
+)
+"SARNormScasub.aoi22hp" "subckt" (
+""
+""
+)
+"SARNormScasub.oai12h" "subckt" (
+""
+""
+)
+"SARNormScasub.oai22hp" "subckt" (
+""
+""
+)
+"SARNormScasub.xor2h" "subckt" (
+""
+""
+)
+"SARNormScasub.dbzrsbn" "subckt" (
+""
+""
+)
+"SARNormScasub.inv2" "subckt" (
+""
+""
+)
+"SARNormScasub.qdfzrbn" "subckt" (
+""
+"q d td ck sel rb vcc! 0"
+)
+"SARNormScasub.xor4t" "subckt" (
+""
+""
+)
+"SARNormScasub.ram5s" "subckt" (
+""
+""
+)
+"SARNormScasub.mxl2h" "subckt" (
+""
+""
+)
+"SARNormScasub.an2b1t" "subckt" (
+""
+""
+)
+"SARNormScasub.ao13" "subckt" (
+""
+""
+)
+"SARNormScasub.aoi112h" "subckt" (
+""
+""
+)
+"SARNormScasub.oa13" "subckt" (
+""
+""
+)
+"SARNormScasub.oai112h" "subckt" (
+""
+""
+)
+"SARNormScasub.an3t" "subckt" (
+""
+""
+)
+"SARNormScasub.aoi12s" "subckt" (
+""
+""
+)
+"SARNormScasub.oai12s" "subckt" (
+""
+""
+)
+"SARNormScasub.an3p" "subckt" (
+""
+""
+)
+"SARNormScasub.nd3s" "subckt" (
+""
+""
+)
+"SARNormScasub.dfzrbs" "subckt" (
+""
+""
+)
+"SARNormScasub.inv6ck" "subckt" (
+""
+""
+)
+"SARNormScasub.mux4p" "subckt" (
+""
+""
+)
+"SARNormScasub.qdffrsbn" "subckt" (
+""
+""
+)
+"SARNormScasub.ram5" "subckt" (
+""
+""
+)
+"SARNormScasub.buft1" "subckt" (
+""
+""
+)
+"SARNormScasub.an2t" "subckt" (
+""
+""
+)
+"SARNormScasub.maoi1s" "subckt" (
+""
+""
+)
+"SARNormScasub.qdfzrbt" "subckt" (
+""
+""
+)
+"SARNormScasub.aoi2222" "subckt" (
+""
+""
+)
+"SARNormScasub.oai2222" "subckt" (
+""
+""
+)
+"SARNormScasub.an3s" "subckt" (
+""
+""
+)
+"SARNormScasub.nd2f" "subckt" (
+""
+""
+)
+"SARNormScasub.ao22t" "subckt" (
+""
+""
+)
+"SARNormScasub.oa22t" "subckt" (
+""
+""
+)
+"SARNormScasub.fa2s" "subckt" (
+""
+""
+)
+"SARNormScasub.aoi112" "subckt" (
+""
+""
+)
+"SARNormScasub.oai112" "subckt" (
+""
+""
+)
+"SARNormScasub.maoi1t" "subckt" (
+""
+""
+)
+"SARNormScasub.an4" "subckt" (
+""
+""
+)
+"SARNormScasub.mulpa" "subckt" (
+""
+""
+)
+"SARNormScasub.dfclrbp" "subckt" (
+""
+""
+)
+"SARNormScasub.moai1t" "subckt" (
+""
+""
+)
+"SARNormScasub.ao13p" "subckt" (
+""
+""
+)
+"SARNormScasub.bufb2" "subckt" (
+""
+""
+)
+"SARNormScasub.oa13p" "subckt" (
+""
+""
+)
+"SARNormScasub.aoi12p" "subckt" (
+""
+""
+)
+"SARNormScasub.mxl2" "subckt" (
+""
+""
+)
+"SARNormScasub.oai12p" "subckt" (
+""
+""
+)
+"SARNormScasub.nd4" "subckt" (
+""
+""
+)
+"SARNormScasub.qdbhp" "subckt" (
+""
+""
+)
+"SARNormScasub.gcbesp" "subckt" (
+""
+""
+)
+"SARNormScasub.pdix" "subckt" (
+""
+""
+)
+"SARNormScasub.fa2p" "subckt" (
+""
+""
+)
+"SARNormScasub.dffrsbt" "subckt" (
+""
+""
+)
+"SARNormScasub.mxl2t" "subckt" (
+""
+""
+)
+"SARNormScasub.or3t" "subckt" (
+""
+""
+)
+"SARNormScasub.aoi13t" "subckt" (
+""
+""
+)
+"SARNormScasub.gckest" "subckt" (
+""
+""
+)
+"SARNormScasub.oai13t" "subckt" (
+""
+""
+)
+"SARNormScasub.mao222" "subckt" (
+""
+""
+)
+"SARNormScasub.aoi12" "subckt" (
+""
+""
+)
+"SARNormScasub.inv4" "subckt" (
+""
+""
+)
+"SARNormScasub.oai12" "subckt" (
+""
+""
+)
+"SARNormScasub.moai1s" "subckt" (
+""
+""
+)
+"SARNormScasub.dlhs" "subckt" (
+""
+""
+)
+"SARNormScasub.mux4t" "subckt" (
+""
+""
+)
+"SARNormScasub.mux3t" "subckt" (
+""
+""
+)
+"SARNormScasub.jkfn" "subckt" (
+""
+""
+)
+"SARNormScasub.xnr4p" "subckt" (
+""
+""
+)
+"SARNormScasub.dly1" "subckt" (
+""
+""
+)
+"SARNormScasub.dfzrsbp" "subckt" (
+""
+""
+)
+"SARNormScasub.xor2hs" "subckt" (
+""
+""
+)
+"SARNormScasub.qdlhrbp" "subckt" (
+""
+""
+)
+"SARNormScasub.ha2t" "subckt" (
+""
+""
+)
+"SARNormScasub.dfzclrbp" "subckt" (
+""
+""
+)
+"SARNormScasub.dffn" "subckt" (
+""
+""
+)
+"SARNormScasub.dlhrbn" "subckt" (
+""
+""
+)
+"SARNormScasub.dftrbs" "subckt" (
+""
+""
+)
+"SARNormScasub.fa1p" "subckt" (
+""
+""
+)
+"SARNormScasub.xor2t" "subckt" (
+""
+""
+)
+"SARNormScasub.aoi22" "subckt" (
+""
+""
+)
+"SARNormScasub.inv3ck" "subckt" (
+""
+""
+)
+"SARNormScasub.oai22" "subckt" (
+""
+""
+)
+"SARNormScasub.jkfrbp" "subckt" (
+""
+""
+)
+"SARNormScasub.an3b2p" "subckt" (
+""
+""
+)
+"SARNormScasub.ao12" "subckt" (
+""
+""
+)
+"SARNormScasub.dela" "subckt" (
+""
+""
+)
+"SARNormScasub.oa12" "subckt" (
+""
+""
+)
+"SARNormScasub.xnr4s" "subckt" (
+""
+""
+)
+"SARNormScasub.maoi1f" "subckt" (
+""
+""
+)
+"SARNormScasub.xnr3t" "subckt" (
+""
+""
+)
+"SARNormScasub.qdffrsbp" "subckt" (
+""
+""
+)
+"SARNormScasub.dfclrbt" "subckt" (
+""
+""
+)
+"SARNormScasub.dfzcrbn" "subckt" (
+""
+""
+)
+"SARNormScasub.mulpat" "subckt" (
+""
+""
+)
+"SARNormScasub.qdlhst" "subckt" (
+""
+""
+)
+"SARNormScasub.facs2" "subckt" (
+""
+""
+)
+"SARNormScasub.dfclrbn" "subckt" (
+""
+""
+)
+"SARNormScasub.ha1s" "subckt" (
+""
+""
+)
+"SARNormScasub.maoi1" "subckt" (
+""
+""
+)
+"SARNormScasub.or2b1t" "subckt" (
+""
+""
+)
+"SARNormScasub.ao12p" "subckt" (
+""
+""
+)
+"SARNormScasub.mux4" "subckt" (
+""
+""
+)
+"SARNormScasub.oa12p" "subckt" (
+""
+""
+)
+"SARNormScasub.an4b1p" "subckt" (
+""
+""
+)
+"SARNormScasub.nr4p" "subckt" (
+""
+""
+)
+"SARNormScasub.nr3h" "subckt" (
+""
+""
+)
+"SARNormScasub.ao222s" "subckt" (
+""
+""
+)
+"SARNormScasub.oa222s" "subckt" (
+""
+""
+)
+"SARNormScasub.moai1" "subckt" (
+""
+""
+)
+"SARNormScasub.an3b1p" "subckt" (
+""
+""
+)
+"SARNormScasub.fa1" "subckt" (
+""
+""
+)
+"SARNormScasub.inv1s" "subckt" (
+""
+"o i vcc! 0"
+)
+"SARNormScasub.or3b2" "subckt" (
+""
+""
+)
+"SARNormScasub.nr2f" "subckt" (
+""
+""
+)
+"SARNormScasub.fa1s" "subckt" (
+""
+""
+)
+"SARNormScasub.dlhn" "subckt" (
+""
+""
+)
+"SARNormScasub.buf6" "subckt" (
+""
+""
+)
+"SARNormScasub.ao112p" "subckt" (
+""
+""
+)
+"SARNormScasub.oa112p" "subckt" (
+""
+""
+)
+"SARNormScasub.qdlhrbn" "subckt" (
+""
+""
+)
+"SARNormScasub.dfzrsbt" "subckt" (
+""
+""
+)
+"SARNormScasub.nr4" "subckt" (
+""
+""
+)
+"SARNormScasub.buf2" "subckt" (
+""
+""
+)
+"SARNormScasub.qdffp" "subckt" (
+""
+""
+)
+"SARNormScasub.dlhrbp" "subckt" (
+""
+""
+)
+"SARNormScasub.moai1h" "subckt" (
+""
+""
+)
+"SARNormScasub.oai112hp" "subckt" (
+""
+""
+)
+"SARNormScasub.or2s" "subckt" (
+""
+""
+)
+"SARNormScasub.dbfrbn" "subckt" (
+""
+""
+)
+"SARNormScasub.dbzrbp" "subckt" (
+""
+""
+)
+"SARNormScasub.dfzs" "subckt" (
+""
+""
+)
+"SARNormScasub.nd5s" "subckt" (
+""
+""
+)
+"SARNormScasub.nr4s" "subckt" (
+""
+""
+)
+"SARNormScasub.xnr3" "subckt" (
+""
+""
+)
+"SARNormScasub.aoi12hp" "subckt" (
+""
+""
+)
+"SARNormScasub.ha3" "subckt" (
+""
+""
+)
+"SARNormScasub.oai12hp" "subckt" (
+""
+""
+)
+"SARNormScasub.muxb2" "subckt" (
+""
+""
+)
+"SARNormScasub.mxl2s" "subckt" (
+""
+""
+)
+"SARNormScasub.inv4ck" "subckt" (
+""
+""
+)
+"SARNormScasub.mux3s" "subckt" (
+""
+""
+)
+"SARNormScasub.ao2222p" "subckt" (
+""
+""
+)
+"SARNormScasub.nd3t" "subckt" (
+""
+""
+)
+"SARNormScasub.xor4s" "subckt" (
+""
+""
+)
+"SARNormScasub.xnr2" "subckt" (
+""
+""
+)
+"SARNormScasub.xnr2hs" "subckt" (
+""
+""
+)
+"SARNormScasub.mxl3p" "subckt" (
+""
+""
+)
+"SARNormScasub.an4p" "subckt" (
+""
+""
+)
+"SARNormScasub.aoi22t" "subckt" (
+""
+""
+)
+"SARNormScasub.dfzn" "subckt" (
+""
+""
+)
+"SARNormScasub.oai22t" "subckt" (
+""
+""
+)
+"SARNormScasub.dffrbt" "subckt" (
+""
+""
+)
+"SARNormScasub.mulbe" "subckt" (
+""
+""
+)
+"SARNormScasub.qdfzs" "subckt" (
+""
+""
+)
+"SARNormScasub.aoi13h" "subckt" (
+""
+""
+)
+"SARNormScasub.dbfrbp" "subckt" (
+""
+""
+)
+"SARNormScasub.oai13h" "subckt" (
+""
+""
+)
+"SARNormScasub.or3b2p" "subckt" (
+""
+""
+)
+"SARNormScasub.nd6" "subckt" (
+""
+""
+)
+"SARNormScasub.or2t" "subckt" (
+""
+""
+)
+"SARNormScasub.dffs" "subckt" (
+""
+""
+)
+"SARNormScasub.dfcrbt" "subckt" (
+""
+""
+)
+"SARNormScasub.nd2" "subckt" (
+""
+"o i1 i2 vcc! 0"
+)
+"SARNormScasub.dfzclrbn" "subckt" (
+""
+""
+)
+"SARNormScasub.an2" "subckt" (
+""
+"o i1 i2 vcc! 0"
+)
+"SARNormScasub.an4t" "subckt" (
+""
+""
+)
+"SARNormScasub.buf3ck" "subckt" (
+""
+""
+)
+"SARNormScasub.nd4t" "subckt" (
+""
+""
+)
+"SARNormScasub.or3b2t" "subckt" (
+""
+""
+)
+"SARNormScasub.aoi13p" "subckt" (
+""
+""
+)
+"SARNormScasub.oai13p" "subckt" (
+""
+""
+)
+"SARNormScasub.muxb4t" "subckt" (
+""
+""
+)
+"SARNormScasub.buf1" "subckt" (
+""
+""
+)
+"SARNormScasub.dftrbn" "subckt" (
+""
+""
+)
+"SARNormScasub.nd4s" "subckt" (
+""
+""
+)
+"SARNormScasub.nr8" "subckt" (
+""
+""
+)
+"SARNormScasub.dfztrbp" "subckt" (
+""
+""
+)
+"SARNormScasub.mux2p" "subckt" (
+""
+""
+)
+"SARNormScasub.ao222t" "subckt" (
+""
+""
+)
+"SARNormScasub.oa222t" "subckt" (
+""
+""
+)
+"SARNormScasub.buf4ck" "subckt" (
+""
+""
+)
+"SARNormScasub.fa3s" "subckt" (
+""
+""
+)
+"SARNormScasub.xnr2t" "subckt" (
+""
+""
+)
+"SARNormScasub.ao2222s" "subckt" (
+""
+""
+)
+"SARNormScasub.ao22s" "subckt" (
+""
+""
+)
+"SARNormScasub.oa2222s" "subckt" (
+""
+""
+)
+"SARNormScasub.oa22s" "subckt" (
+""
+""
+)
+"SARNormScasub.buf3" "subckt" (
+""
+""
+)
+"SARNormScasub.ao22p" "subckt" (
+""
+""
+)
+"SARNormScasub.oa22p" "subckt" (
+""
+""
+)
+"SARNormScasub.xor2s" "subckt" (
+""
+""
+)
+"SARNormScasub.filler8c" "subckt" (
+""
+""
+)
+"SARNormScasub.jkft" "subckt" (
+""
+""
+)
+"SARNormScasub.maoi1p" "subckt" (
+""
+""
+)
+"SARNormScasub.an2p" "subckt" (
+""
+""
+)
+"SARNormScasub.or3b2s" "subckt" (
+""
+""
+)
+"SARNormScasub.maoi1h" "subckt" (
+""
+""
+)
+"SARNormScasub.an3b2s" "subckt" (
+""
+"o i1 b1 b2 vcc! 0"
+)
+"SARNormScasub.nd5" "subckt" (
+""
+""
+)
+"SARNormScasub.nr4t" "subckt" (
+""
+""
+)
+"SARNormScasub.nr6" "subckt" (
+""
+"o i1 i2 i3 i4 i5 i6 vcc! 0"
+)
+"SARNormScasub.dffrbs" "subckt" (
+""
+""
+)
+"SARNormScasub.facs2s" "subckt" (
+""
+""
+)
+"SARNormScasub.gckesf" "subckt" (
+""
+""
+)
+"SARNormScasub.qdbhs" "subckt" (
+""
+""
+)
+"SARNormScasub.ao13t" "subckt" (
+""
+""
+)
+"SARNormScasub.oa13t" "subckt" (
+""
+""
+)
+"SARNormScasub.qdfzrbp" "subckt" (
+""
+""
+)
+"SARNormScasub.xor4" "subckt" (
+""
+""
+)
+"SARNormScasub.xnr4" "subckt" (
+""
+""
+)
+"SARNormScasub.qdfzn" "subckt" (
+""
+""
+)
+"SARNormScasub.aoi13s" "subckt" (
+""
+""
+)
+"SARNormScasub.dlhrbs" "subckt" (
+""
+""
+)
+"SARNormScasub.oai13s" "subckt" (
+""
+""
+)
+"SARNormScasub.fa3" "subckt" (
+""
+""
+)
+"SARNormScasub.invt4" "subckt" (
+""
+""
+)
+"SARNormScasub.nr3t" "subckt" (
+""
+""
+)
+"SARNormScasub.or2b1" "subckt" (
+""
+""
+)
+"SARNormScasub.xor3" "subckt" (
+""
+""
+)
+"SARNormScasub.dfztrbn" "subckt" (
+""
+""
+)
+"SARNormScasub.jkfrbt" "subckt" (
+""
+""
+)
+"SARNormScasub.qdffs" "subckt" (
+""
+""
+)
+"SARNormScasub.dffrbn" "subckt" (
+""
+"q qb d ck rb vcc! 0"
+)
+"SARNormScasub.bufb1" "subckt" (
+""
+""
+)
+"SARNormScasub.qdlhp" "subckt" (
+""
+""
+)
+"SARNormScasub.muxb4p" "subckt" (
+""
+""
+)
+"SARNormScasub.ao2222" "subckt" (
+""
+""
+)
+"SARNormScasub.oa2222" "subckt" (
+""
+""
+)
+"SARNormScasub.or2b1s" "subckt" (
+""
+"o i1 b1 vcc! 0"
+)
+"SARNormScasub.an4b1" "subckt" (
+""
+""
+)
+"SARNormScasub.qdffrsbt" "subckt" (
+""
+""
+)
+"SARNormScasub.buf8" "subckt" (
+""
+""
+)
+"SARNormScasub.an3b1" "subckt" (
+""
+""
+)
+"SARNormScasub.or3s" "subckt" (
+""
+""
+)
+"SARNormScasub.ao22" "subckt" (
+""
+"o a1 a2 b1 b2 vcc! 0"
+)
+"SARNormScasub.inv12ck" "subckt" (
+""
+""
+)
+"SARNormScasub.oa22" "subckt" (
+""
+""
+)
+"SARNormScasub.mao222s" "subckt" (
+""
+""
+)
+"SARNormScasub.inv3" "subckt" (
+""
+""
+)
+"SARNormScasub.facs1" "subckt" (
+""
+""
+)
+"SARNormScasub.xor3s" "subckt" (
+""
+""
+)
+"SARNormScasub.dfzcrbt" "subckt" (
+""
+""
+)
+"SARNormScasub.nr3hp" "subckt" (
+""
+""
+)
+"SARNormScasub.aoi112p" "subckt" (
+""
+""
+)
+"SARNormScasub.dly2" "subckt" (
+""
+""
+)
+"SARNormScasub.oai112p" "subckt" (
+""
+""
+)
+"SARNormScasub.ha3t" "subckt" (
+""
+""
+)
+"SARNormScasub.mux2t" "subckt" (
+""
+""
+)
+"SARNormScasub.dfzrbp" "subckt" (
+""
+""
+)
+"SARNormScasub.inv12" "subckt" (
+""
+""
+)
+"SARNormScasub.buft4" "subckt" (
+""
+""
+)
+"SARNormScasub.ao13s" "subckt" (
+""
+""
+)
+"SARNormScasub.aoi222s" "subckt" (
+""
+""
+)
+"SARNormScasub.gckesn" "subckt" (
+""
+""
+)
+"SARNormScasub.ha1p" "subckt" (
+""
+""
+)
+"SARNormScasub.oa13s" "subckt" (
+""
+""
+)
+"SARNormScasub.oai222s" "subckt" (
+""
+""
+)
+"SARNormScasub.nd4p" "subckt" (
+""
+""
+)
+"SARNormScasub.qdffrbp" "subckt" (
+""
+""
+)
+"SARNormScasub.qdffrbt" "subckt" (
+""
+""
+)
+"SARNormScasub.nd3p" "subckt" (
+""
+""
+)
+"SARNormScasub.sarnormverilog" "subckt" (
+""
+"clock reset compare ready clocktck clockcmp resetp resetn saroutg sarout[7] sarout[6] sarout[5] sarout[4] sarout[3] sarout[2] sarout[1] sarout[0] dataout[7] dataout[6] dataout[5] dataout[4] dataout[3] dataout[2] dataout[1] dataout[0] vcc! 0"
+)
+"SARNormScasub.an2s" "subckt" (
+""
+""
+)
+"SARNormScasub.moai1f" "subckt" (
+""
+""
+)
+"SARNormScasub.ao112" "subckt" (
+""
+""
+)
+"SARNormScasub.oa112" "subckt" (
+""
+""
+)
+"SARNormScasub.dfzsbp" "subckt" (
+""
+""
+)
+"SARNormScasub.fillerbc" "subckt" (
+""
+""
+)
+"SARNormScasub.xnr2s" "subckt" (
+""
+""
+)
+"SARNormScasub.aoi22h" "subckt" (
+""
+""
+)
+"SARNormScasub.oai22h" "subckt" (
+""
+""
+)
+"SARNormScasub.ao112t" "subckt" (
+""
+""
+)
+"SARNormScasub.oa112t" "subckt" (
+""
+""
+)
+"SARNormScasub.cmpe4" "subckt" (
+""
+""
+)
+"SARNormScasub.ha2" "subckt" (
+""
+""
+)
+"SARNormScasub.or3b1p" "subckt" (
+""
+""
+)
+"SARNormScasub.qdfzrsbt" "subckt" (
+""
+""
+)
+"SARNormScasub.dbfrbt" "subckt" (
+""
+""
+)
+"SARNormScasub.aoi222h" "subckt" (
+""
+""
+)
+"SARNormScasub.inv8" "subckt" (
+""
+""
+)
+"SARNormScasub.oai222h" "subckt" (
+""
+""
+)
+"SARNormScasub.or3b1s" "subckt" (
+""
+""
+)
+"SARNormScasub.dbfrsbn" "subckt" (
+""
+""
+)
+"SARNormScasub.dffsbp" "subckt" (
+""
+""
+)
+"SARNormScasub.gcbest" "subckt" (
+""
+""
+)
+"SARNormScasub.tie1" "subckt" (
+""
+""
+)
+"SARNormScasub.dbhrbn" "subckt" (
+""
+""
+)
+"SARNormScasub.inv8ck" "subckt" (
+""
+""
+)
+"SARNormScasub.buf8ck" "subckt" (
+""
+""
+)
+"SARNormScasub.aoi13hs" "subckt" (
+""
+""
+)
+"SARNormScasub.dfzp" "subckt" (
+""
+""
+)
+"SARNormScasub.muxb2s" "subckt" (
+""
+""
+)
+"SARNormScasub.oai13hs" "subckt" (
+""
+""
+)
+"SARNormScasub.aoi112s" "subckt" (
+""
+""
+)
+"SARNormScasub.oai112s" "subckt" (
+""
+""
+)
+"SARNormScasub.an3b2t" "subckt" (
+""
+""
+)
+"SARNormScasub.buf1s" "subckt" (
+""
+""
+)
+"SARNormScasub.dfztrbs" "subckt" (
+""
+""
+)
+"SARNormScasub.ram2s" "subckt" (
+""
+""
+)
+"SARNormScasub.fillerac" "subckt" (
+""
+""
+)
+"SARNormScasub.dfzsbn" "subckt" (
+""
+""
+)
+"SARNormScasub.mxl2p" "subckt" (
+""
+""
+)
+"SARNormScasub.xor3t" "subckt" (
+""
+""
+)
+"SARNormScasub.dfzsbt" "subckt" (
+""
+""
+)
+"SARNormScasub.cmpe4s" "subckt" (
+""
+""
+)
+"SARNormScasub.ha3p" "subckt" (
+""
+""
+)
+"SARNormScasub.dly3" "subckt" (
+""
+""
+)
+"SARNormScasub.jkzrbn" "subckt" (
+""
+""
+)
+"SARNormScasub.qdlhn" "subckt" (
+""
+""
+)
+"SARNormScasub.xnr2h" "subckt" (
+""
+""
+)
+"SARNormScasub.xor2p" "subckt" (
+""
+""
+)
+"SARNormScasub.ha1t" "subckt" (
+""
+""
+)
+"SARNormScasub.qdffrbs" "subckt" (
+""
+""
+)
+"SARNormScasub.nd2t" "subckt" (
+""
+"o i1 i2 vcc! 0"
+)
+"SARNormScasub.pdi" "subckt" (
+""
+""
+)
+"SARNormScasub.buft2" "subckt" (
+""
+""
+)
+"SARNormScasub.an2b1" "subckt" (
+""
+""
+)
+"SARNormScasub.aoi112hs" "subckt" (
+""
+""
+)
+"SARNormScasub.ha2p" "subckt" (
+""
+""
+)
+"SARNormScasub.oai112hs" "subckt" (
+""
+""
+)
+"SARNormScasub.ao12s" "subckt" (
+""
+""
+)
+"SARNormScasub.oa12s" "subckt" (
+""
+""
+)
+"SARNormScasub.fa3p" "subckt" (
+""
+""
+)
+"SARNormScasub.filler2c" "subckt" (
+""
+""
+)
+"SARNormScasub.qdbhn" "subckt" (
+""
+""
+)
+"SARNormScasub.xnr4t" "subckt" (
+""
+""
+)
+"l_slcr20k_rf" "subckt" (
+""
+""
+)
+"ClockGenerator" "subckt" (
+""
+"CLK CLKN CLKP VDD VSS"
+)
+"p_po7w500_33_rf" "subckt" (
+""
+""
+)
+END

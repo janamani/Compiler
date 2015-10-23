@@ -1,0 +1,48 @@
+    M12 (CLKB CLK VDD VDD) p_18_mm w=480.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.352e-13 as=2.352e-13 pd=1.94u ps=1.94u m=(1)*(1) mf=(1)*(1)
+    M4 (VX net048 net035 VDD) p_18_mm w=420.0n l=360.0n nf=1 mis_flag=1 \
+        ad=2.44e-13 as=2.44e-13 pd=2u ps=2u m=(1)*(1) mf=(1)*(1)
+    M0 (net028 CLK VDD VDD) p_18_mm w=420.0n l=360.0n nf=1 mis_flag=1 \
+        ad=2.44e-13 as=2.44e-13 pd=2u ps=2u m=(1)*(1) mf=(1)*(1)
+    M2 (VY net028 net039 VDD) p_18_mm w=420.0n l=360.0n nf=1 mis_flag=1 \
+        ad=2.44e-13 as=2.44e-13 pd=2u ps=2u m=(1)*(1) mf=(1)*(1)
+    M3 (net039 VX VDD VDD) p_18_mm w=1.68u l=360.0n nf=1 mis_flag=1 \
+        ad=8.232e-13 as=8.232e-13 pd=4.34u ps=4.34u m=(1)*(1) mf=(1)*(1)
+    M5 (net035 VY VDD VDD) p_18_mm w=1.68u l=360.0n nf=1 mis_flag=1 \
+        ad=8.232e-13 as=8.232e-13 pd=4.34u ps=4.34u m=(1)*(1) mf=(1)*(1)
+    M10 (net048 CLK VDD VDD) p_18_mm w=420.0n l=360.0n nf=1 mis_flag=1 \
+        ad=2.44e-13 as=2.44e-13 pd=2u ps=2u m=(1)*(1) mf=(1)*(1)
+    M26 (net034 VY VDD VDD) p_18_mm w=480.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.352e-13 as=2.352e-13 pd=1.94u ps=1.94u m=(1)*(1) mf=(1)*(1)
+    M27 (net049 VOP net034 VDD) p_18_mm w=480.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.352e-13 as=2.352e-13 pd=1.94u ps=1.94u m=(1)*(1) mf=(1)*(1)
+    M24 (VOP net049 net033 VDD) p_18_mm w=480.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.352e-13 as=2.352e-13 pd=1.94u ps=1.94u m=(1)*(1) mf=(1)*(1)
+    M25 (net033 VX VDD VDD) p_18_mm w=480.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.352e-13 as=2.352e-13 pd=1.94u ps=1.94u m=(1)*(1) mf=(1)*(1)
+    M11 (CLKB CLK VSS VSS) n_18_mm w=240.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.224e-13 as=2.224e-13 pd=2.0u ps=2.0u m=(1)*(1) mf=(1)*(1)
+    M9 (VY VX VSS VSS) n_18_mm w=840.0n l=360.0n nf=1 mis_flag=1 \
+        ad=4.116e-13 as=4.116e-13 pd=2.66u ps=2.66u m=(1)*(1) mf=(1)*(1)
+    M15 (net097 CLK VSS VSS) n_18_mm w=420.0n l=360.0n nf=1 mis_flag=1 \
+        ad=2.44e-13 as=2.44e-13 pd=2u ps=2u m=(1)*(1) mf=(1)*(1)
+    M6 (VY CLKB VSS VSS) n_18_mm w=420.0n l=360.0n nf=1 mis_flag=1 \
+        ad=2.44e-13 as=2.44e-13 pd=2u ps=2u m=(1)*(1) mf=(1)*(1)
+    M7 (VX CLKB VSS VSS) n_18_mm w=420.0n l=360.0n nf=1 mis_flag=1 \
+        ad=2.44e-13 as=2.44e-13 pd=2u ps=2u m=(1)*(1) mf=(1)*(1)
+    M8 (VX VY VSS VSS) n_18_mm w=840.0n l=360.0n nf=1 mis_flag=1 \
+        ad=4.116e-13 as=4.116e-13 pd=2.66u ps=2.66u m=(1)*(1) mf=(1)*(1)
+    M13 (net028 VIP net097 VSS) n_18_mm w=1.2u l=540.0n nf=1 mis_flag=1 \
+        ad=5.88e-13 as=5.88e-13 pd=3.38u ps=3.38u m=(1)*(1) mf=(1)*(1)
+    M14 (net048 VIN net097 VSS) n_18_mm w=1.2u l=540.0n nf=1 mis_flag=1 \
+        ad=5.88e-13 as=5.88e-13 pd=3.38u ps=3.38u m=(1)*(1) mf=(1)*(1)
+    M28 (net049 VY VSS VSS) n_18_mm w=240.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.224e-13 as=2.224e-13 pd=2.0u ps=2.0u m=(1)*(1) mf=(1)*(1)
+    M22 (VOP VX VSS VSS) n_18_mm w=240.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.224e-13 as=2.224e-13 pd=2.0u ps=2.0u m=(1)*(1) mf=(1)*(1)
+    M23 (VOP net049 VSS VSS) n_18_mm w=240.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.224e-13 as=2.224e-13 pd=2.0u ps=2.0u m=(1)*(1) mf=(1)*(1)
+    M29 (net049 VOP VSS VSS) n_18_mm w=240.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.224e-13 as=2.224e-13 pd=2.0u ps=2.0u m=(1)*(1) mf=(1)*(1)
+ends ComparatorCkt
+// End of subcircuit definition.

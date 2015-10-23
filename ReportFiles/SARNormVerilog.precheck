@@ -1,0 +1,182 @@
+
+ 	 Check Design Report
+	 -------------------- 
+
+  Unresolved References & Empty Modules
+  ------------------------------------- 
+No unresolved references in design 'SARNormVerilog_DATA8'
+
+No empty modules in design 'SARNormVerilog_DATA8'
+
+ Unloaded Pin(s), Port(s)
+ -------------------------
+No unloaded sequential element in 'SARNormVerilog_DATA8'
+
+No unloaded port in 'SARNormVerilog_DATA8'
+
+ Assigns
+ ------- 
+Total number of assign statements in design 'SARNormVerilog_DATA8' : 0
+
+ Undriven Port(s)/Pin(s)
+ ------------------------
+No undriven combinational pin in 'SARNormVerilog_DATA8'
+
+No undriven sequential pin in 'SARNormVerilog_DATA8'
+
+No undriven hierarchical pin in 'SARNormVerilog_DATA8'
+
+No undriven port in 'SARNormVerilog_DATA8'
+
+ Multidriven Port(s)/Pin(s)
+--------------------------
+
+No multidriven combinational pin in 'SARNormVerilog_DATA8'
+
+No multidriven sequential pin in 'SARNormVerilog_DATA8'
+
+No multidriven hierarchical pin in 'SARNormVerilog_DATA8'
+
+No multidriven ports in 'SARNormVerilog_DATA8'
+
+No multidriven unloaded nets in 'SARNormVerilog_DATA8'
+
+  Constant Pin(s)
+  ----------------
+No constant combinational pin(s) in design 'SARNormVerilog_DATA8'
+
+No constant sequential pin(s) in design 'SARNormVerilog_DATA8'
+
+design 'SARNormVerilog_DATA8' has the following constant input hierarchical pin(s)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_StateN_85_16/pins_in/in_1 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_StateN_80_11/pins_in/in_0 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_StateN_80_11/pins_in/in_1 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_Ready_20_15/pins_in/in_1 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAROut_41_13/pins_in/in_1[0] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAROut_41_13/pins_in/in_1[1] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAROut_41_13/pins_in/in_1[2] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAROut_41_13/pins_in/in_1[3] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAROut_41_13/pins_in/in_1[4] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAROut_41_13/pins_in/in_1[5] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAROut_41_13/pins_in/in_1[6] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAROut_41_13/pins_in/in_1[7] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAROutG_30_13/pins_in/in_0 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_ResetN_30_13/pins_in/in_0 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_ResetP_30_13/pins_in/in_1 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAR_102_10/pins_in/in_0 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_StateN_85_16/pins_in/in_0 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_StateN_80_11/pins_in/in_2 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_StateN_80_14/pins_in/in_0 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_StateN_80_14/pins_in/in_2 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_StateN_80_14/pins_in/in_3 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_StateN_77_13/pins_in/in_1[0] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_StateN_77_13/pins_in/in_1[1] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_StateP_48_13/pins_in/in_1[0] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_StateP_48_13/pins_in/in_1[1] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_TempSAR_102_10/pins_in/in_0[0] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_TempSAR_102_10/pins_in/in_0[1] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_TempSAR_102_10/pins_in/in_0[2] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_TempSAR_102_10/pins_in/in_0[3] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_TempSAR_102_10/pins_in/in_0[4] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_TempSAR_102_10/pins_in/in_0[5] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_TempSAR_102_10/pins_in/in_0[6] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_TempSAR_102_10/pins_in/in_0[7] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_TempSAR_98_13/pins_in/in_1[0] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_TempSAR_98_13/pins_in/in_1[1] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_TempSAR_98_13/pins_in/in_1[2] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_TempSAR_98_13/pins_in/in_1[3] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_TempSAR_98_13/pins_in/in_1[4] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_TempSAR_98_13/pins_in/in_1[5] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_TempSAR_98_13/pins_in/in_1[6] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_TempSAR_98_13/pins_in/in_1[7] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_DataOut_16_12/pins_in/in_1[0] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_DataOut_16_12/pins_in/in_1[1] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_DataOut_16_12/pins_in/in_1[2] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_DataOut_16_12/pins_in/in_1[3] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_DataOut_16_12/pins_in/in_1[4] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_DataOut_16_12/pins_in/in_1[5] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_DataOut_16_12/pins_in/in_1[6] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_DataOut_16_12/pins_in/in_1[7] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_Ready_20_15/pins_in/in_0 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_Ready_16_12/pins_in/in_1 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAROutG_30_13/pins_in/in_1 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_ResetN_30_13/pins_in/in_1 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_ResetP_30_13/pins_in/in_0 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_ClockCmp_69_15/pins_in/in_0 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_ClockCmp_66_13/pins_in/in_1 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_ClockTck_58_15/pins_in/in_0 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_ClockTck_55_13/pins_in/in_1 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAR_102_10/pins_in/in_1 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAR_102_10/pins_in/in_2 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAR_102_19/pins_in/in_0[0] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAR_102_19/pins_in/in_2[0] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAR_102_19/pins_in/in_3[0] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAR_102_19/pins_in/in_0[1] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAR_102_19/pins_in/in_2[1] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAR_102_19/pins_in/in_3[1] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAR_102_19/pins_in/in_0[2] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAR_102_19/pins_in/in_2[2] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAR_102_19/pins_in/in_3[2] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAR_102_19/pins_in/in_0[3] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAR_102_19/pins_in/in_2[3] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAR_102_19/pins_in/in_3[3] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAR_102_19/pins_in/in_0[4] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAR_102_19/pins_in/in_2[4] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAR_102_19/pins_in/in_3[4] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAR_102_19/pins_in/in_0[5] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAR_102_19/pins_in/in_2[5] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAR_102_19/pins_in/in_3[5] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAR_102_19/pins_in/in_0[6] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAR_102_19/pins_in/in_2[6] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAR_102_19/pins_in/in_3[6] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAR_98_13/pins_in/in_1[0] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAR_98_13/pins_in/in_1[1] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAR_98_13/pins_in/in_1[2] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAR_98_13/pins_in/in_1[3] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAR_98_13/pins_in/in_1[4] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAR_98_13/pins_in/in_1[5] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAR_98_13/pins_in/in_1[6] 	 (fanout : 1)
+/designs/SARNormVerilog_DATA8/instances_hier/mux_SAR_98_13/pins_in/in_1[7] 	 (fanout : 1)
+Total number of constant hierarchical pins in design 'SARNormVerilog_DATA8' : 89
+
+No constant connected ports in design 'SARNormVerilog_DATA8'
+
+  Preserved instances(s)
+  ----------------
+No preserved combinational instance(s) in design 'SARNormVerilog_DATA8'
+No preserved sequential instance(s) in design 'SARNormVerilog_DATA8'
+No preserved hierarchical instance(s) in design 'SARNormVerilog_DATA8'
+
+Libcells with no corresponding LEF
+----------------------------------
+No libcell(s) found.
+
+LEF cells with no corresponding libcell
+---------------------------------------
+
+No physical (LEF) cells found.
+
+ Summary
+ ------- 
+
+                Name                 Total 
+-------------------------------------------
+Unresolved References                    0 
+Empty Modules                            0 
+Unloaded Port(s)                         0 
+Unloaded Sequential Pin(s)               0 
+Assigns                                  0 
+Undriven Port(s)                         0 
+Undriven Leaf Pin(s)                     0 
+Undriven hierarchical pin(s)             0 
+Multidriven Port(s)                      0 
+Multidriven Leaf Pin(s)                  0 
+Multidriven hierarchical Pin(s)          0 
+Multidriven unloaded net(s)              0 
+Constant Port(s)                         0 
+Constant Leaf Pin(s)                     0 
+Constant hierarchical Pin(s)            89 
+Preserved leaf instance(s)               0 
+Preserved hierarchical instance(s)       0 
+Libcells with no LEF cell                0 
+Physical (LEF) cells with no libcell     0 

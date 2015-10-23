@@ -1,0 +1,11 @@
+(turboOpts psrFmax) ""
+(turboOpts psrSwitch) nil
+(turboOpts numThreads) ""
+(turboOpts preserveOption) "None"
+(turboOpts preserveInst) nil
+(turboOpts uniMode) "Spectre"
+(turboOpts psrOption) "Default"
+(turboOpts envSwitch) nil
+(turboOpts proc_affinity) ""
+(turboOpts mtOption) "Auto"
+(turboOpts errorLevel) "Do not override"

@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: Oct 14 12:46:35 2015
+// Design library name: AtoDConverters
+// Design cell name: ScasubImprSAR
+// Design view name: schematic
+simulator lang=spectre
+global 0 vcc! vdd!

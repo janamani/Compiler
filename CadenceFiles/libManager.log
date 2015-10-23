@@ -1,0 +1,1050 @@
+\o Program:		@(#)$CDS: libManager version 32.10 11/11/2011 13:43 (cat91amd) $
+\o Sub version:		sub-version  s008 
+\o Arguments:		-unmapped -mpssession virtuoso31271 -mpshost Ayyangalam 
+\o Working Directory:	Ayyangalam:/home/janamani/Compiler/CadenceFiles
+\o 64-bit offsets
+\o Qt version: 		4.5.3
+\o changeWorkingDir("/home/janamani/Compiler/CadenceFiles") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o Log file is "/home/janamani/Compiler/CadenceFiles/libManager.log".
+\o Opening libManager window.
+\a nrSetWindowVisibility(cdsLibManager "show")
+\o MPS service: map window
+\o Library Manager customization server connected.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(1 27 1600 845))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "AtoDConverters"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libListBox->value = "DigitalCircuits"
+\a cdsLibManager->libListBox->value = "FaradayCircuits"
+\a cdsLibManager->libListBox->value = "ScasubCircuits"
+\a cdsLibManager->libListBox->value = "TestingCircuits"
+\a cdsLibManager->libListBox->value = "UMC_18_CMOS"
+\a cdsLibManager->libListBox->value = "TestingCircuits"
+\a cdsLibManager->libLineEdit->value = "TestingCircuits"
+\a cdsLibManager->cellListBox->value = "TestTimer4"
+\a cdsLibManager->cellListBox->value = "TestSarOutC"
+\a cdsLibManager->cellListBox->value = "TestSarOut"
+\a cdsLibManager->cellListBox->value = "TestDataOut"
+\a cdsLibManager->cellListBox->value = "TestSarOut"
+\a cdsLibManager->cellListBox->value = "TestSarOutC"
+\a cdsLibManager->cellListBox->value = "TestTimer4"
+\a cdsLibManager->cellListBox->value = "TestSarOutC"
+\a cdsLibManager->cellListBox->value = "TestTimer4"
+\a cdsLibManager->cellListBox->value = "TestSarOutC"
+\a cdsLibManager->cellListBox->value = "TestSarOut"
+\a cdsLibManager->cellListBox->value = "TestSarOutC"
+\a lmgrLogShowPopup("mainListPopup1" 46 53 2 "TestSarOutC")
+\a cdsLibManager->cellLineEdit->value = "TestSarOutC"
+\a cdsLibManager->copySimpleButton->value = t
+\a basicCopyForm->CategoryCellsEdit->value = "*"
+\a basicCopyForm->CellsSkipLibraries->value = t
+\a basicCopyForm->CellsSkipLibrariesEdit->value = "*"
+\a basicCopyForm->CellsSkipLibrariesEdit->value = "*"
+\a basicCopyForm->ViewsSkipLibraries->value = t
+\a basicCopyForm->ViewsSkipLibrariesEdit->value = "*"
+\a basicCopyForm->CopyFromLibrary->value = "AnalogCircuits"
+\a basicCopyForm->CopyToLibrary->value = "AnalogCircuits"
+\a basicCopyForm->CopyFromLibrary->value = "TestingCircuits"
+\a basicCopyForm->CopyFromCell->value = "TestSarOutC"
+\a basicCopyForm->CopyToLibrary->value = "TestingCircuits"
+\a basicCopyForm->CopyToCell->value = "TestSarOutC"
+\a basicCopyForm->CellsViewsToCopy->value = "schematic simulation"
+\a basicCopyForm->CellsSkipLibrariesEdit->value = ""
+\a basicCopyForm->CellsSkipLibrariesEdit->value = "AnalogCircuits AtoDConverters DigitalCircuits FaradayCircuits ScasubCircuits UMC_18_CMOS VerilogCircuits ahdlLib analogLib avTech basic bmslib cdsDefTechLib connectLib sample sheetlib"
+\a basicCopyForm->ViewsSkipLibrariesEdit->value = "AnalogCircuits AtoDConverters DigitalCircuits FaradayCircuits ScasubCircuits UMC_18_CMOS VerilogCircuits ahdlLib analogLib avTech basic bmslib cdsDefTechLib connectLib sample sheetlib"
+\a nrSetWindowVisibility(basicCopyForm "show")
+\a nrSetCurrentWindow(basicCopyForm)
+\a nrResizeWindow(basicCopyForm list(568 111 444 652))
+\a basicCopyForm->CopyToCell->value = "TestSarOutD"
+\a basicCopyForm->OK->value = t
+\o Beginning simple copy to library "TestingCircuits".
+\o Processing files to be copied...
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(636 336 288 131))
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "TestingCircuits"
+\a cdsLibManager->libLineEdit->value = "TestingCircuits"
+\a cdsLibManager->cellListBox->value = "TestSarOutC"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutC"
+\a basicCopyForm->CellsSkipLibrariesEdit->value = "*"
+\a basicCopyForm->CellsSkipLibrariesEdit->value = "AnalogCircuits AtoDConverters DigitalCircuits FaradayCircuits ScasubCircuits UMC_18_CMOS VerilogCircuits ahdlLib analogLib avTech basic bmslib cdsDefTechLib connectLib sample sheetlib"
+\a nrSetCurrentWindow(cdsLibManager)
+\a lmgrLogShowPopup("mainListPopup1" 62 48 2 "TestSarOutC")
+\a cdsLibManager->copySimpleButton->value = t
+\a basicCopyForm->CellsSkipLibrariesEdit->value = "*"
+\a basicCopyForm->CellsViewsToCopy->value = ""
+\a basicCopyForm->ViewsSkipLibrariesEdit->value = "*"
+\a basicCopyForm->CopyFromCell->value = ""
+\a basicCopyForm->CopyToCell->value = ""
+\a basicCopyForm->CopyFromLibrary->value = ""
+\a basicCopyForm->CopyToLibrary->value = ""
+\a basicCopyForm->CopyFromLibrary->value = "AnalogCircuits"
+\a basicCopyForm->CopyToLibrary->value = "AnalogCircuits"
+\a basicCopyForm->CopyFromLibrary->value = "TestingCircuits"
+\a basicCopyForm->CopyFromCell->value = "TestSarOutC"
+\a basicCopyForm->CopyToLibrary->value = "TestingCircuits"
+\a basicCopyForm->CopyToCell->value = "TestSarOutC"
+\a basicCopyForm->CellsViewsToCopy->value = "schematic simulation"
+\a basicCopyForm->CellsSkipLibrariesEdit->value = ""
+\a basicCopyForm->CellsSkipLibrariesEdit->value = "AnalogCircuits AtoDConverters DigitalCircuits FaradayCircuits ScasubCircuits UMC_18_CMOS VerilogCircuits ahdlLib analogLib avTech basic bmslib cdsDefTechLib connectLib sample sheetlib"
+\a basicCopyForm->ViewsSkipLibrariesEdit->value = "AnalogCircuits AtoDConverters DigitalCircuits FaradayCircuits ScasubCircuits UMC_18_CMOS VerilogCircuits ahdlLib analogLib avTech basic bmslib cdsDefTechLib connectLib sample sheetlib"
+\a nrSetWindowVisibility(basicCopyForm "show")
+\a nrSetCurrentWindow(basicCopyForm)
+\a nrResizeWindow(basicCopyForm list(559 103 444 652))
+\a basicCopyForm->CopyToCell->value = "TestSarOutI"
+\a basicCopyForm->OK->value = t
+\o Beginning simple copy to library "TestingCircuits".
+\o Processing files to be copied...
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(645 336 288 131))
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "TestingCircuits"
+\a cdsLibManager->libLineEdit->value = "TestingCircuits"
+\a cdsLibManager->cellListBox->value = "TestSarOutC"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutC"
+\a basicCopyForm->CellsSkipLibrariesEdit->value = "*"
+\a basicCopyForm->CellsSkipLibrariesEdit->value = "AnalogCircuits AtoDConverters DigitalCircuits FaradayCircuits ScasubCircuits UMC_18_CMOS VerilogCircuits ahdlLib analogLib avTech basic bmslib cdsDefTechLib connectLib sample sheetlib"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "TestSarOut"
+\a lmgrLogShowPopup("mainListPopup1" 36 39 2 "TestSarOut")
+\a cdsLibManager->cellLineEdit->value = "TestSarOut"
+\a cdsLibManager->editDeleteButton->value = t
+\a deleteForm->deleteBothRadioButton->value = t
+\a deleteForm->deleteFilterEdit->value = "*"
+\a deleteForm->notDeleteFilterEdit->value = "*"
+\a nrSetWindowVisibility(deleteForm "show")
+\a nrSetCurrentWindow(deleteForm)
+\a nrResizeWindow(deleteForm list(468 217 627 425))
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(590 311 362 308))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting cell "TestSarOut" from library "TestingCircuits".
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(650 285 281 131))
+\o Deleted cell 'TestingCircuits/TestSarOut'.
+\o Deletion of 1 cell done.
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "TestingCircuits"
+\a cdsLibManager->libLineEdit->value = "TestingCircuits"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "TestControl"
+\a cdsLibManager->cellLineEdit->value = "TestControl"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "TestDataOut"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = "TestDataOut"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "TestSarOutC"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutC"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "TestSarOutD"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutD"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "TestSarOutI"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 59 70 2 "TestSarOutI")
+\a cdsLibManager->cellLineEdit->value = "TestSarOutI"
+\a cdsLibManager->editDeleteButton->value = t
+\a nrSetWindowVisibility(deleteForm "show")
+\a nrSetCurrentWindow(deleteForm)
+\a nrResizeWindow(deleteForm list(459 209 627 425))
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(581 303 362 308))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting cell "TestSarOutI" from library "TestingCircuits".
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\o Deleted cell 'TestingCircuits/TestSarOutI'.
+\o Deletion of 1 cell done.
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "TestingCircuits"
+\a cdsLibManager->libLineEdit->value = "TestingCircuits"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(workingDialogForm list(649 257 281 131))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "TestSarOutD"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 60 55 2 "TestSarOutD")
+\a cdsLibManager->cellLineEdit->value = "TestSarOutD"
+\a cdsLibManager->copySimpleButton->value = t
+\a basicCopyForm->CellsSkipLibrariesEdit->value = "*"
+\a basicCopyForm->CellsViewsToCopy->value = ""
+\a basicCopyForm->ViewsSkipLibrariesEdit->value = "*"
+\a basicCopyForm->CopyFromCell->value = ""
+\a basicCopyForm->CopyToCell->value = ""
+\a basicCopyForm->CopyFromLibrary->value = ""
+\a basicCopyForm->CopyToLibrary->value = ""
+\a basicCopyForm->CopyFromLibrary->value = "AnalogCircuits"
+\a basicCopyForm->CopyToLibrary->value = "AnalogCircuits"
+\a basicCopyForm->CopyFromLibrary->value = "TestingCircuits"
+\a basicCopyForm->CopyFromCell->value = "TestSarOutD"
+\a basicCopyForm->CopyToLibrary->value = "TestingCircuits"
+\a basicCopyForm->CopyToCell->value = "TestSarOutD"
+\a basicCopyForm->CellsViewsToCopy->value = "schematic simulation"
+\a basicCopyForm->CellsSkipLibrariesEdit->value = ""
+\a basicCopyForm->CellsSkipLibrariesEdit->value = "AnalogCircuits AtoDConverters DigitalCircuits FaradayCircuits ScasubCircuits UMC_18_CMOS VerilogCircuits ahdlLib analogLib avTech basic bmslib cdsDefTechLib connectLib sample sheetlib"
+\a basicCopyForm->ViewsSkipLibrariesEdit->value = "AnalogCircuits AtoDConverters DigitalCircuits FaradayCircuits ScasubCircuits UMC_18_CMOS VerilogCircuits ahdlLib analogLib avTech basic bmslib cdsDefTechLib connectLib sample sheetlib"
+\a nrSetWindowVisibility(basicCopyForm "show")
+\a nrSetCurrentWindow(basicCopyForm)
+\a nrResizeWindow(basicCopyForm list(550 95 444 652))
+\a basicCopyForm->CopyToCell->value = "TestSarOutI"
+\a basicCopyForm->OK->value = t
+\o Beginning simple copy to library "TestingCircuits".
+\o Processing files to be copied...
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(640 336 288 131))
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "TestingCircuits"
+\a cdsLibManager->libLineEdit->value = "TestingCircuits"
+\a cdsLibManager->cellListBox->value = "TestSarOutD"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutD"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a basicCopyForm->CellsSkipLibrariesEdit->value = "*"
+\a basicCopyForm->CellsSkipLibrariesEdit->value = "AnalogCircuits AtoDConverters DigitalCircuits FaradayCircuits ScasubCircuits UMC_18_CMOS VerilogCircuits ahdlLib analogLib avTech basic bmslib cdsDefTechLib connectLib sample sheetlib"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "TestSarOutI"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutI"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "TestSarOutD"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "TestSarOutC"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "TestSarOutD"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "TestSarOutI"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutI"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "TestTimer4"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = "TestTimer4"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "TestControl"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = "TestControl"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "TestingCircuits"
+\a cdsLibManager->libLineEdit->value = "TestingCircuits"
+\a cdsLibManager->cellListBox->value = "TestControl"
+\a cdsLibManager->cellLineEdit->value = "TestControl"
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "TestDataOut"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->cellLineEdit->value = "TestDataOut"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "TestingCircuits"
+\a cdsLibManager->libLineEdit->value = "TestingCircuits"
+\a cdsLibManager->cellListBox->value = "TestDataOut"
+\a cdsLibManager->cellLineEdit->value = "TestDataOut"
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "TestControl"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->cellListBox->value = "TestDataOut"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->cellListBox->value = "TestSarOutC"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutC"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "simulation"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "TestingCircuits"
+\a cdsLibManager->libLineEdit->value = "TestingCircuits"
+\a cdsLibManager->cellListBox->value = "TestSarOutC"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutC"
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "TestDataOut"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->cellLineEdit->value = "TestDataOut"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "simulation"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "simulation"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "TestingCircuits"
+\a cdsLibManager->libLineEdit->value = "TestingCircuits"
+\a cdsLibManager->cellListBox->value = "TestDataOut"
+\a cdsLibManager->cellLineEdit->value = "TestDataOut"
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "TestingCircuits"
+\a cdsLibManager->libLineEdit->value = "TestingCircuits"
+\a cdsLibManager->cellListBox->value = "TestDataOut"
+\a cdsLibManager->cellLineEdit->value = "TestDataOut"
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = "TestSarOutC"
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutC"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "TestSarOutD"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "TestSarOutC"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutC"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "TestSarOutD"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutD"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "TestSarOutI"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutI"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "TestDataOut"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = "TestDataOut"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "TestingCircuits"
+\a cdsLibManager->libLineEdit->value = "TestingCircuits"
+\a cdsLibManager->cellListBox->value = "TestDataOut"
+\a cdsLibManager->cellLineEdit->value = "TestDataOut"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "TestingCircuits"
+\a cdsLibManager->libLineEdit->value = "TestingCircuits"
+\a cdsLibManager->cellListBox->value = "TestDataOut"
+\a cdsLibManager->cellLineEdit->value = "TestDataOut"
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = "TestSarOutC"
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutC"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "TestSarOutD"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutD"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "TestSarOutC"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutC"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "TestSarOutD"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutD"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "TestSarOutI"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutI"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "TestTimer4"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = "TestTimer4"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "TestSarOutC"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutC"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "TestingCircuits"
+\a cdsLibManager->libLineEdit->value = "TestingCircuits"
+\a cdsLibManager->cellListBox->value = "TestSarOutC"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutC"
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "TestingCircuits"
+\a cdsLibManager->libLineEdit->value = "TestingCircuits"
+\a cdsLibManager->cellListBox->value = "TestSarOutC"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutC"
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = "TestSarOutD"
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutD"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "simulation"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "TestingCircuits"
+\a cdsLibManager->libLineEdit->value = "TestingCircuits"
+\a cdsLibManager->cellListBox->value = "TestSarOutD"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutD"
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "TestingCircuits"
+\a cdsLibManager->libLineEdit->value = "TestingCircuits"
+\a cdsLibManager->cellListBox->value = "TestSarOutD"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutD"
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "TestSarOutC"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutC"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "simulation"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "TestingCircuits"
+\a cdsLibManager->libLineEdit->value = "TestingCircuits"
+\a cdsLibManager->cellListBox->value = "TestSarOutC"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutC"
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "TestingCircuits"
+\a cdsLibManager->libLineEdit->value = "TestingCircuits"
+\a cdsLibManager->cellListBox->value = "TestSarOutC"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutC"
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "TestSarOutI"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutI"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "simulation"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "TestingCircuits"
+\a cdsLibManager->libLineEdit->value = "TestingCircuits"
+\a cdsLibManager->cellListBox->value = "TestSarOutI"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutI"
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "TestingCircuits"
+\a cdsLibManager->libLineEdit->value = "TestingCircuits"
+\a cdsLibManager->cellListBox->value = "TestSarOutI"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutI"
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "simulation"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "TestSarOutD"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutD"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "simulation"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "TestSarOutI"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutI"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "TestingCircuits"
+\a cdsLibManager->libLineEdit->value = "TestingCircuits"
+\a cdsLibManager->cellListBox->value = "TestSarOutI"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutI"
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = "TestSarOutD"
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutD"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "simulation"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "TestSarOutI"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutI"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "TestingCircuits"
+\a cdsLibManager->libLineEdit->value = "TestingCircuits"
+\a cdsLibManager->cellListBox->value = "TestSarOutI"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutI"
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "TestingCircuits"
+\a cdsLibManager->libLineEdit->value = "TestingCircuits"
+\a cdsLibManager->cellListBox->value = "TestSarOutI"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutI"
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "TestingCircuits"
+\a cdsLibManager->libLineEdit->value = "TestingCircuits"
+\a cdsLibManager->cellListBox->value = "TestSarOutI"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutI"
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewLineEdit->value = ""
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewLineEdit->value = ""
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewLineEdit->value = ""
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewLineEdit->value = ""
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewLineEdit->value = ""
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewLineEdit->value = ""
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewLineEdit->value = ""
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = "TestSarOutC"
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutC"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "TestSarOutD"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->cellListBox->value = "TestSarOutI"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutI"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "TestSarOutD"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\a cdsLibManager->cellLineEdit->value = "TestSarOutD"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "simulation"
+\a cdsLibManager->viewLineEdit->value = "simulation"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)

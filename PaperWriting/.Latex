@@ -1,0 +1,18 @@
+latex Report
+bibtex Report
+latex Report
+latex Report
+dvipdf Report
+rm -rf Report.aux
+rm -rf Report.dvi
+rm -rf Report.lof
+rm -rf Report.log
+rm -rf Report.toc
+rm -rf Report.lot
+rm -rf Report.ps
+rm -rf Report.out
+rm -rf Report.bbl
+rm -rf Report.blg
+rm -rf *.log
+rm -rf *~
+clear

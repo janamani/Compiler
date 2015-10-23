@@ -1,0 +1,9 @@
+HEADER
+"PSFversion" "1.00"
+"M60n M59n M58n M62n M61n M43n M67n M66n M65n M64n M63n" "UMC_18_CMOS_P_18_MM_spectre"
+"M56n M55n M54n M51n M50n M34n M31n M30n M4n M2n M1n" "UMC_18_CMOS_N_18_MM_spectre"
+"CLKv" ":1v"
+"CLKNv" ":2v"
+"CLKPv" ":3v"
+"VDDv" ":4v"
+"VSSv" ":5v"

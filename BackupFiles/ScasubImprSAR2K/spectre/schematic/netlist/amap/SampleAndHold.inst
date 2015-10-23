@@ -1,0 +1,11 @@
+HEADER
+"PSFversion" "1.00"
+"M0n M11n M10n" "UMC_18_CMOS_P_18_MM_spectre"
+"M1n M2n M3n M4n M5n M6n M7n" "UMC_18_CMOS_N_18_MM_spectre"
+"C0n C1n" "UMC_18_CMOS_MIMCAPS_MM_spectre"
+"GNDv" ":1v"
+"VCNv" ":2v"
+"VCPv" ":3v"
+"VDDv" ":4v"
+"VINv" ":5v"
+"VOPv" ":6v"

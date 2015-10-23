@@ -1,0 +1,205 @@
+
+ 	 Check Design Report
+	 -------------------- 
+
+  Unresolved References & Empty Modules
+  ------------------------------------- 
+No unresolved references in design 'SARTimer5Verilog_DATA8_TIMER5'
+
+No empty modules in design 'SARTimer5Verilog_DATA8_TIMER5'
+
+ Unloaded Pin(s), Port(s)
+ -------------------------
+No unloaded sequential element in 'SARTimer5Verilog_DATA8_TIMER5'
+
+No unloaded port in 'SARTimer5Verilog_DATA8_TIMER5'
+
+ Assigns
+ ------- 
+Total number of assign statements in design 'SARTimer5Verilog_DATA8_TIMER5' : 0
+
+ Undriven Port(s)/Pin(s)
+ ------------------------
+No undriven combinational pin in 'SARTimer5Verilog_DATA8_TIMER5'
+
+No undriven sequential pin in 'SARTimer5Verilog_DATA8_TIMER5'
+
+No undriven hierarchical pin in 'SARTimer5Verilog_DATA8_TIMER5'
+
+No undriven port in 'SARTimer5Verilog_DATA8_TIMER5'
+
+ Multidriven Port(s)/Pin(s)
+--------------------------
+
+No multidriven combinational pin in 'SARTimer5Verilog_DATA8_TIMER5'
+
+No multidriven sequential pin in 'SARTimer5Verilog_DATA8_TIMER5'
+
+No multidriven hierarchical pin in 'SARTimer5Verilog_DATA8_TIMER5'
+
+No multidriven ports in 'SARTimer5Verilog_DATA8_TIMER5'
+
+No multidriven unloaded nets in 'SARTimer5Verilog_DATA8_TIMER5'
+
+  Constant Pin(s)
+  ----------------
+No constant combinational pin(s) in design 'SARTimer5Verilog_DATA8_TIMER5'
+
+No constant sequential pin(s) in design 'SARTimer5Verilog_DATA8_TIMER5'
+
+design 'SARTimer5Verilog_DATA8_TIMER5' has the following constant input hierarchical pin(s)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/add_132_24/pins_in/B 	 (fanout : 2)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/sub_43_29/pins_in/B 	 (fanout : 2)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_FlagConv_92_11/pins_in/in_3 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_FlagConv_89_13/pins_in/in_1 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_FlagTMR_128_18/pins_in/in_1 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_TempTMR_121_46/pins_in/in_1[1] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_TempTMR_121_46/pins_in/in_1[2] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_TempTMR_121_46/pins_in/in_1[3] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_TempTMR_121_46/pins_in/in_1[4] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_TempTMR_115_13/pins_in/in_1[0] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_TempTMR_115_13/pins_in/in_1[1] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_TempTMR_115_13/pins_in/in_1[2] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_TempTMR_115_13/pins_in/in_1[3] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_TempTMR_115_13/pins_in/in_1[4] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_TimerOut_115_13/pins_in/in_1[0] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_TimerOut_115_13/pins_in/in_1[1] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_TimerOut_115_13/pins_in/in_1[2] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_TimerOut_115_13/pins_in/in_1[3] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_TimerOut_115_13/pins_in/in_1[4] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_Ready_121_46/pins_in/in_0 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_Ready_115_13/pins_in/in_1 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_DataOut_104_13/pins_in/in_1[1] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_DataOut_104_13/pins_in/in_1[2] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_DataOut_104_13/pins_in/in_1[3] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_DataOut_104_13/pins_in/in_1[4] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_DataOut_104_13/pins_in/in_1[5] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_DataOut_104_13/pins_in/in_1[6] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_DataOut_104_13/pins_in/in_1[7] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutI_35_19/pins_in/in_1[1] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutI_35_19/pins_in/in_1[2] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutI_35_19/pins_in/in_1[3] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutI_35_19/pins_in/in_1[4] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutI_35_19/pins_in/in_1[5] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutI_35_19/pins_in/in_1[6] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutI_35_19/pins_in/in_1[7] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutI_47_19/pins_in/in_1[1] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutI_47_19/pins_in/in_1[2] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutI_47_19/pins_in/in_1[3] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutI_47_19/pins_in/in_1[4] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutI_47_19/pins_in/in_1[5] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutI_47_19/pins_in/in_1[6] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutI_47_19/pins_in/in_1[7] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_ClockTck_76_16/pins_in/in_0 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_ClockTck_66_13/pins_in/in_1 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_ClockInc_76_16/pins_in/in_0 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_ClockInc_66_13/pins_in/in_1 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_ClockDcr_76_16/pins_in/in_0 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_ClockDcr_66_13/pins_in/in_1 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutCG_137_13/pins_in/in_1 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutDG_137_13/pins_in/in_1 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutIG_137_13/pins_in/in_1 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutDS_137_13/pins_in/in_0 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutIS_137_13/pins_in/in_0 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_ResetN_137_13/pins_in/in_1 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_ResetP_137_13/pins_in/in_0 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_FlagTMR_115_13/pins_in/in_1 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_FlagConv_92_11/pins_in/in_1 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_FlagConv_92_11/pins_in/in_2 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_FlagTMR_128_18/pins_in/in_0 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_TempTMR_121_46/pins_in/in_1[0] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_Ready_121_46/pins_in/in_1 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_DataOut_104_13/pins_in/in_1[0] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutC_27_13/pins_in/in_1[0] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutC_27_13/pins_in/in_1[1] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutC_27_13/pins_in/in_1[2] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutC_27_13/pins_in/in_1[3] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutC_27_13/pins_in/in_1[4] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutC_27_13/pins_in/in_1[5] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutC_27_13/pins_in/in_1[6] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutC_27_13/pins_in/in_1[7] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutD_40_19/pins_in/in_1[0] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutD_40_19/pins_in/in_1[1] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutD_40_19/pins_in/in_1[2] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutD_40_19/pins_in/in_1[3] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutD_40_19/pins_in/in_1[4] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutD_40_19/pins_in/in_1[5] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutD_40_19/pins_in/in_1[6] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutD_40_19/pins_in/in_1[7] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutD_52_19/pins_in/in_1[0] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutD_52_19/pins_in/in_1[1] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutD_52_19/pins_in/in_1[2] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutD_52_19/pins_in/in_1[3] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutD_52_19/pins_in/in_1[4] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutD_52_19/pins_in/in_1[5] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutD_52_19/pins_in/in_1[6] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutD_52_19/pins_in/in_1[7] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutD_27_13/pins_in/in_1[0] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutD_27_13/pins_in/in_1[1] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutD_27_13/pins_in/in_1[2] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutD_27_13/pins_in/in_1[3] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutD_27_13/pins_in/in_1[4] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutD_27_13/pins_in/in_1[5] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutD_27_13/pins_in/in_1[6] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutD_27_13/pins_in/in_1[7] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutI_35_19/pins_in/in_1[0] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutI_47_19/pins_in/in_1[0] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutI_27_13/pins_in/in_1[0] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutI_27_13/pins_in/in_1[1] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutI_27_13/pins_in/in_1[2] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutI_27_13/pins_in/in_1[3] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutI_27_13/pins_in/in_1[4] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutI_27_13/pins_in/in_1[5] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutI_27_13/pins_in/in_1[6] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutI_27_13/pins_in/in_1[7] 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutCG_137_13/pins_in/in_0 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutDG_137_13/pins_in/in_0 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutIG_137_13/pins_in/in_0 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutDS_137_13/pins_in/in_1 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_SAROutIS_137_13/pins_in/in_1 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_ResetN_137_13/pins_in/in_0 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_ResetP_137_13/pins_in/in_1 	 (fanout : 1)
+/designs/SARTimer5Verilog_DATA8_TIMER5/instances_hier/mux_FlagTMR_121_46/pins_in/in_1 	 (fanout : 1)
+Total number of constant hierarchical pins in design 'SARTimer5Verilog_DATA8_TIMER5' : 112
+
+No constant connected ports in design 'SARTimer5Verilog_DATA8_TIMER5'
+
+  Preserved instances(s)
+  ----------------
+No preserved combinational instance(s) in design 'SARTimer5Verilog_DATA8_TIMER5'
+No preserved sequential instance(s) in design 'SARTimer5Verilog_DATA8_TIMER5'
+No preserved hierarchical instance(s) in design 'SARTimer5Verilog_DATA8_TIMER5'
+
+Libcells with no corresponding LEF
+----------------------------------
+No libcell(s) found.
+
+LEF cells with no corresponding libcell
+---------------------------------------
+
+No physical (LEF) cells found.
+
+ Summary
+ ------- 
+
+                Name                 Total 
+-------------------------------------------
+Unresolved References                    0 
+Empty Modules                            0 
+Unloaded Port(s)                         0 
+Unloaded Sequential Pin(s)               0 
+Assigns                                  0 
+Undriven Port(s)                         0 
+Undriven Leaf Pin(s)                     0 
+Undriven hierarchical pin(s)             0 
+Multidriven Port(s)                      0 
+Multidriven Leaf Pin(s)                  0 
+Multidriven hierarchical Pin(s)          0 
+Multidriven unloaded net(s)              0 
+Constant Port(s)                         0 
+Constant Leaf Pin(s)                     0 
+Constant hierarchical Pin(s)           112 
+Preserved leaf instance(s)               0 
+Preserved hierarchical instance(s)       0 
+Libcells with no LEF cell                0 
+Physical (LEF) cells with no libcell     0 

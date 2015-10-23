@@ -1,0 +1,17 @@
+CADENCE IHNL01070
+$model
+AtoDConverters/ScasubImprSAR/schematic ScasubImprSAR
+ScasubCircuits/SARImprScasub/schematic SARImprScasub
+AnalogCircuits/DriverNetWork/schematic DriverNetWork
+AnalogCircuits/SampleAndHold/schematic SampleAndHold
+AnalogCircuits/ClockGenerator/schematic ClockGenerator
+AnalogCircuits/ComparatorCkt/schematic ComparatorCkt
+AnalogCircuits/CapacitiveDAC/schematic CapacitiveDAC
+$endmodel
+$net
+gnd! 0
+vcc! vcc!
+vdd! vdd!
+$endnet
+$param
+$endparam

@@ -1,0 +1,37 @@
+
+  =================
+   Message Summary
+  =================
+
+Num   Sev       Id                       Message Text                    
+-------------------------------------------------------------------------
+  1 Warning CDFG-818  Using default parameter value for module           
+                      elaboration.                                       
+  1   Info  GLO-32    Deleting instances not driving any primary         
+                      outputs.                                           
+                      Optimizations such as constant propagation or      
+                      redundancy removal could change the connections    
+                      so an instance does not drive any primary outputs  
+                      anymore. To see the list of deleted instances,     
+                      set the 'information_level' attribute to 2 or      
+                      above.                                             
+  1   Info  LBR-412   Created nominal operating condition.               
+                      The nominal operating condition represents either  
+                      the nominal PVT values if specified in the         
+                      library source, or the default PVT values (1.0,    
+                      1.0, 1.0).                                         
+  2   Info  LBR-415   Library Information.                               
+                      The number of unusable cells that is listed        
+                      depends on the setting of the 'information_level'  
+                      root attribute. If set to a value less than 6,     
+                      the list is limited to 10 unusable cells. If set   
+                      to a value equal to or higher than 6, all          
+                      unusable cells are listed.                         
+  3   Info  RTLOPT-20 Done carrysave optimization.                       
+  2   Info  WDO-212   Forcing flat compare.                              
+  2   Info  WDO-600   'Conformal LEC11.1-p100' or later builds is        
+                      recommended for verification.                      
+                      The use of 'Conformal LEC11.1-p100' or later       
+                      builds is recommended to get better verification   
+                      results.                                           
+

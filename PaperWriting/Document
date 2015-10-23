@@ -1,0 +1,64 @@
+To achieve 10-bit accuracy, a fully differential architec-
+ture suppresses the substrate and supply noise and has good
+common-mode noise rejection. SAR ADCs usually use a
+binary-weighted capacitor array rather than a C-2C capacitor
+array for better linearity. Fig. 1 shows a conventional 10-bit
+fully differential SAR ADC. The fundamental building blocks
+are the comparator, sample-and-hold (S/H) circuit, capac-
+itor network, and successive approximation registers. In this
+charge-redistribution based architecture, the capacitor network
+serves as both a S/H circuit and a reference DAC capacitor
+array. Therefore, this architecture does not require a monolithic
+S/H circuit. Since this ADC is fully differential, the operation
+of the two sides is complementary. For simplicity, only the
+positive side of the ADC operation is described below. At the
+sampling phase, the bottom plates of the capacitors are charged
+to
+, and the top plates are reset to the common-mode voltage
+is switched to
+and
+cm . Next, the largest capacitor
+the other capacitors are switched to ground. The comparator
+then performs the first comparison. If
+is higher than
+,
+the most significant bit (MSB)
+is 1. Otherwise,
+is 0,
+and the largest capacitor is reconnected to ground. Then, the
+second largest capacitor
+is switched to
+. The comparator
+does the comparison again. The ADC repeats this procedure
+until the least significant bit (LSB) is decided. Although the
+trial-and-error search procedure is simple and intuitive, it is
+not an energy efficient switching scheme, especially when
+unsuccessful trials occur.
+
+Fig. 2 shows the proposed SAR ADC, where the proposed
+switching procedure can be either upward or downward. For
+fast reference settling, i.e., discharging through n-type transis-
+tors, downward switching was selected in this ADC. The pro-
+posed ADC samples the input signal on the top plates via boot-
+strapped switches, which increases the settling speed and input
+bandwidth. At the same time, the bottom plates of the capacitors
+. Next, after the ADC turns off the bootstrapped
+are reset to
+switches, the comparator directly performs the first comparison
+without switching any capacitor. According to the comparator
+output, the largest capacitor
+on the higher voltage poten-
+tial side is switched to ground and the other one (on the lower
+side) remains unchanged. The ADC repeats the procedure until
+the LSB is decided. For each bit cycle, there is only one ca-
+pacitor switch, which reduces both charge transfer in the ca-
+pacitive DAC network and the transitions of the control circuit
+and switch buffer, resulting in smaller power dissipation. The
+flow chart of the proposed successive-approximation procedure
+is shown in Fig. 3.
+One of the major differences between the proposed method
+and the conventional one is that the common-mode voltage of
+to ground
+the reference DAC gradually decreases from half
+as shown in Fig. 4. The proposed switching sequence does not
+

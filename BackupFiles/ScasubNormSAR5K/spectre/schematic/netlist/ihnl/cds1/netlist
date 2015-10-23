@@ -1,0 +1,8 @@
+I0 (Clock Reset Compare Ready ClockTck ClockCmp ResetP ResetN SAROutG \
+        SAROut\<7\> SAROut\<6\> SAROut\<5\> SAROut\<4\> SAROut\<3\> \
+        SAROut\<2\> SAROut\<1\> SAROut\<0\> DataOut\<7\> DataOut\<6\> \
+        DataOut\<5\> DataOut\<4\> DataOut\<3\> DataOut\<2\> DataOut\<1\> \
+        DataOut\<0\>) sarnormverilog
+include "/home/janamani/Compiler/SpectreFiles/SARNormVerilog.scs"
+ends SARNormScasub
+// End of subcircuit definition.

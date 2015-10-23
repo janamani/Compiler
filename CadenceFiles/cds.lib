@@ -1,0 +1,20 @@
+
+DEFINE  UMC_18_CMOS 		 	$UMC_180M/UMC_18_CMOS
+DEFINE  basic         		$CDS_HOME/tools/dfII/etc/cdslib/basic
+DEFINE  sheetlib       		$CDS_HOME/tools/dfII/etc/cdslib/sheets/US_8ths
+DEFINE  analogLib 			$CDS_HOME/tools/dfII/etc/cdslib/artist/analogLib
+DEFINE  ahdlLib      		$CDS_HOME/tools.lnx86/dfII/samples/artist/ahdlLib 
+DEFINE  sample					$CDS_HOME/tools.lnx86/dfII/samples/cdslib/sample
+DEFINE  bmslib					$CDS_HOME/tools.lnx86/dfII/samples/artist/bmslib
+DEFINE  connectLib 			$IUS_HOME/tools.lnx86/affirma_ams/etc/connect_lib/connectLib
+DEFINE  avTech 				/Cad/Cadence/ASRA41/tools/assura/etc/avtech/avTech
+
+
+DEFINE AnalogCircuits 		/home/janamani/Compiler/CadenceFiles/AnalogCircuits
+DEFINE AtoDConverters 		/home/janamani/Compiler/CadenceFiles/AtoDConverters
+DEFINE DigitalCircuits 		/home/janamani/Compiler/CadenceFiles/DigitalCircuits
+DEFINE FaradayCircuits 		/home/janamani/Compiler/CadenceFiles/FaradayCircuits
+DEFINE ScasubCircuits 		/home/janamani/Compiler/CadenceFiles/ScasubCircuits
+DEFINE VerilogCircuits 		/home/janamani/Compiler/CadenceFiles/VerilogCircuits
+
+DEFINE TestingCircuits /home/janamani/Compiler/CadenceFiles/TestingCircuits

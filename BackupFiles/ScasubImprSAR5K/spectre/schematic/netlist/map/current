@@ -1,0 +1,38 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "ScasubImprSAR"
+  repList "spectre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  globalList "vcc! gnd! vdd!"
+  hierDelim "."
+  netlistDir "/home/janamani/.Simulations/ScasubImprSAR/spectre/schematic/netlist"
+ )
+( instViewTable
+ )
+( net
+( "gnd!" "0" )
+ )
+( inst
+ )
+( model
+( "ScasubCircuits/SARImprScasub/schematic" "SARImprScasub" )
+( "AnalogCircuits/ClockGenerator/schematic" "ClockGenerator" )
+( "AtoDConverters/ScasubImprSAR/schematic" "ScasubImprSAR" )
+( "AnalogCircuits/DriverNetWork/schematic" "DriverNetWork" )
+( "AnalogCircuits/ComparatorCkt/schematic" "ComparatorCkt" )
+( "AnalogCircuits/SampleAndHold/schematic" "SampleAndHold" )
+( "AnalogCircuits/CapacitiveDAC/schematic" "CapacitiveDAC" )
+ )
+( term
+ )
+( param
+ )
+( "ClockGenerator" "ihnl/cds4/map" )
+( "CapacitiveDAC" "ihnl/cds3/map" )
+( "ComparatorCkt" "ihnl/cds5/map" )
+( "SARImprScasub" "ihnl/cds1/map" )
+( "ScasubImprSAR" "ihnl/cds6/map" )
+( "DriverNetWork" "ihnl/cds0/map" )
+( "SampleAndHold" "ihnl/cds2/map" )
+ )

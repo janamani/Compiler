@@ -1,0 +1,6 @@
+"AnalogCircuits.CapacitiveDAC.schematic.termorder" nil
+"AnalogCircuits.SampleAndHold.schematic.termorder" nil
+"AnalogCircuits.DriverNetWork.schematic.termorder" nil
+"ScasubCircuits.SARImprScasub.schematic.termorder" (("Clock" "ClockCmp" "ClockTck" "Compare" "DataOut<0>" "DataOut<1>" "DataOut<2>" "DataOut<3>" "DataOut<4>" "DataOut<5>" "DataOut<6>" "DataOut<7>" "Ready" "Reset" "ResetN" "ResetP" "SAROut<0>" "SAROut<1>" "SAROut<2>" "SAROut<3>" "SAROut<4>" "SAROut<5>" "SAROut<6>" "SAROut<7>" "SAROutG") ("Clock" "ClockCmp" "ClockTck" "Compare" "DataOut<7>" "DataOut<6>" "DataOut<5>" "DataOut<4>" "DataOut<3>" "DataOut<2>" "DataOut<1>" "DataOut<0>" "Ready" "Reset" "ResetN" "ResetP" "SAROut<7>" "SAROut<6>" "SAROut<5>" "SAROut<4>" "SAROut<3>" "SAROut<2>" "SAROut<1>" "SAROut<0>" "SAROutG"))
+"AnalogCircuits.ClockGenerator.schematic.termorder" nil
+"AnalogCircuits.ComparatorCkt.schematic.termorder" nil

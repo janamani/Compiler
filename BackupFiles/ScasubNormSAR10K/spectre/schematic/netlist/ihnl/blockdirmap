@@ -1,0 +1,9 @@
+CADENCE IHNL01077
+
+AnalogCircuits DriverNetWork schematic cds0
+ScasubCircuits SARNormScasub schematic cds1
+AnalogCircuits SampleAndHold schematic cds2
+AnalogCircuits CapacitiveDAC schematic cds3
+AnalogCircuits ClockGenerator schematic cds4
+AnalogCircuits ComparatorCkt schematic cds5
+AtoDConverters ScasubNormSAR schematic cds6

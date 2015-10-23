@@ -1,0 +1,10 @@
+Begin Incremental Netlisting Oct 13 21:47:25 2015
+ERROR (OSSHNL-109): The cell view, 'AtoDConverters/ScasubImprSAR/schematic', has
+been modified since the last extraction.
+Re-extract the design (File->Check and
+Save menu option) for schematic cell
+views to correct this error.
+
+End netlisting Oct 13 21:47:25 2015
+Begin Incremental Netlisting Oct 13 21:47:40 2015
+End netlisting Oct 13 21:47:40 2015

@@ -1,0 +1,48 @@
+    M162 (QG DG VREFP VDD) p_18_mm w=1.44u l=180.0n nf=2 mis_flag=1 \
+        ad=3.888e-13 as=7.056e-13 pd=1.98u ps=3.86u m=(2)*(1) mf=(2)*(1)
+    M159 (Q3 D3 VREFP VDD) p_18_mm w=1.44u l=180.0n nf=16 mis_flag=1 \
+        ad=3.888e-13 as=4.284e-13 pd=1.98u ps=2.215u m=(16)*(1) \
+        mf=(16)*(1)
+    M11 (Q5 D5 VREFP VDD) p_18_mm w=1.44u l=180.0n nf=64 mis_flag=1 \
+        ad=3.888e-13 as=3.987e-13 pd=1.98u ps=2.03875u m=(64)*(1) \
+        mf=(64)*(1)
+    M19 (Q6 D6 VREFP VDD) p_18_mm w=1.44u l=180.0n nf=128 mis_flag=1 \
+        ad=3.888e-13 as=3.9375e-13 pd=1.98u ps=2.009375u m=(128)*(1) \
+        mf=(128)*(1)
+    M160 (Q1 D1 VREFP VDD) p_18_mm w=1.44u l=180.0n nf=4 mis_flag=1 \
+        ad=3.888e-13 as=5.472e-13 pd=1.98u ps=2.92u m=(4)*(1) mf=(4)*(1)
+    M158 (Q7 D7 VREFP VDD) p_18_mm w=1.44u l=180.0n nf=256 mis_flag=1 \
+        ad=3.888e-13 as=3.91275e-13 pd=1.98u ps=1.994688u m=(256)*(1) \
+        mf=(256)*(1)
+    M5 (Q4 D4 VREFP VDD) p_18_mm w=1.44u l=180.0n nf=32 mis_flag=1 \
+        ad=3.888e-13 as=4.086e-13 pd=1.98u ps=2.0975u m=(32)*(1) \
+        mf=(32)*(1)
+    M3 (Q0 D0 VREFP VDD) p_18_mm w=1.44u l=180.0n nf=2 mis_flag=1 \
+        ad=3.888e-13 as=7.056e-13 pd=1.98u ps=3.86u m=(2)*(1) mf=(2)*(1)
+    M161 (Q2 D2 VREFP VDD) p_18_mm w=1.44u l=180.0n nf=8 mis_flag=1 \
+        ad=3.888e-13 as=4.68e-13 pd=1.98u ps=2.45u m=(8)*(1) mf=(8)*(1)
+    M28 (Q7 D7 VREFN VSS) n_18_mm w=480.0n l=180.0n nf=256 mis_flag=1 \
+        ad=1.296e-13 as=1.30425e-13 pd=1.02u ps=1.027187u m=(256)*(1) \
+        mf=(256)*(1)
+    M10 (Q5 D5 VREFN VSS) n_18_mm w=480.0n l=180.0n nf=64 mis_flag=1 \
+        ad=1.296e-13 as=1.329e-13 pd=1.02u ps=1.04875u m=(64)*(1) \
+        mf=(64)*(1)
+    M4 (Q4 D4 VREFN VSS) n_18_mm w=480.0n l=180.0n nf=32 mis_flag=1 \
+        ad=1.296e-13 as=1.362e-13 pd=1.02u ps=1.0775u m=(32)*(1) \
+        mf=(32)*(1)
+    M6 (Q2 D2 VREFN VSS) n_18_mm w=480.0n l=180.0n nf=8 mis_flag=1 \
+        ad=1.296e-13 as=1.56e-13 pd=1.02u ps=1.25u m=(8)*(1) mf=(8)*(1)
+    M2 (Q0 D0 VREFN VSS) n_18_mm w=480.0n l=180.0n nf=2 mis_flag=1 \
+        ad=1.296e-13 as=2.352e-13 pd=1.02u ps=1.94u m=(2)*(1) mf=(2)*(1)
+    M18 (Q6 D6 VREFN VSS) n_18_mm w=480.0n l=180.0n nf=128 mis_flag=1 \
+        ad=1.296e-13 as=1.3125e-13 pd=1.02u ps=1.034375u m=(128)*(1) \
+        mf=(128)*(1)
+    M8 (Q1 D1 VREFN VSS) n_18_mm w=480.0n l=180.0n nf=4 mis_flag=1 \
+        ad=1.296e-13 as=1.824e-13 pd=1.02u ps=1.48u m=(4)*(1) mf=(4)*(1)
+    M31 (QG DG VREFN VSS) n_18_mm w=480.0n l=180.0n nf=2 mis_flag=1 \
+        ad=1.296e-13 as=2.352e-13 pd=1.02u ps=1.94u m=(2)*(1) mf=(2)*(1)
+    M29 (Q3 D3 VREFN VSS) n_18_mm w=480.0n l=180.0n nf=16 mis_flag=1 \
+        ad=1.296e-13 as=1.428e-13 pd=1.02u ps=1.135u m=(16)*(1) \
+        mf=(16)*(1)
+ends DriverNetWork
+// End of subcircuit definition.

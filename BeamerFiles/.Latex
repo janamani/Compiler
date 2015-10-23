@@ -1,0 +1,14 @@
+latex Presentation
+dvipdf Presentation
+latex Presentation
+dvipdf Presentation
+rm -rf Presentation.aux
+rm -rf Presentation.dvi
+rm -rf Presentation.lof
+rm -rf Presentation.log
+rm -rf Presentation.toc
+rm -rf Presentation.nav
+rm -rf Presentation.out
+rm -rf Presentation.snm
+rm -rf *~
+clear

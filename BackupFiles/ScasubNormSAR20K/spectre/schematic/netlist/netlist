@@ -1,0 +1,259 @@
+
+// Library name: AnalogCircuits
+// Cell name: DriverNetWork
+// View name: schematic
+subckt DriverNetWork D0 D1 D2 D3 D4 D5 D6 D7 DG Q0 Q1 Q2 Q3 Q4 Q5 Q6 Q7 QG \
+        VDD VREFN VREFP VSS
+    M162 (QG DG VREFP VDD) p_18_mm w=1.44u l=180.0n nf=2 mis_flag=1 \
+        ad=3.888e-13 as=7.056e-13 pd=1.98u ps=3.86u m=(2)*(1) mf=(2)*(1)
+    M159 (Q3 D3 VREFP VDD) p_18_mm w=1.44u l=180.0n nf=16 mis_flag=1 \
+        ad=3.888e-13 as=4.284e-13 pd=1.98u ps=2.215u m=(16)*(1) \
+        mf=(16)*(1)
+    M11 (Q5 D5 VREFP VDD) p_18_mm w=1.44u l=180.0n nf=64 mis_flag=1 \
+        ad=3.888e-13 as=3.987e-13 pd=1.98u ps=2.03875u m=(64)*(1) \
+        mf=(64)*(1)
+    M19 (Q6 D6 VREFP VDD) p_18_mm w=1.44u l=180.0n nf=128 mis_flag=1 \
+        ad=3.888e-13 as=3.9375e-13 pd=1.98u ps=2.009375u m=(128)*(1) \
+        mf=(128)*(1)
+    M160 (Q1 D1 VREFP VDD) p_18_mm w=1.44u l=180.0n nf=4 mis_flag=1 \
+        ad=3.888e-13 as=5.472e-13 pd=1.98u ps=2.92u m=(4)*(1) mf=(4)*(1)
+    M158 (Q7 D7 VREFP VDD) p_18_mm w=1.44u l=180.0n nf=256 mis_flag=1 \
+        ad=3.888e-13 as=3.91275e-13 pd=1.98u ps=1.994688u m=(256)*(1) \
+        mf=(256)*(1)
+    M5 (Q4 D4 VREFP VDD) p_18_mm w=1.44u l=180.0n nf=32 mis_flag=1 \
+        ad=3.888e-13 as=4.086e-13 pd=1.98u ps=2.0975u m=(32)*(1) \
+        mf=(32)*(1)
+    M3 (Q0 D0 VREFP VDD) p_18_mm w=1.44u l=180.0n nf=2 mis_flag=1 \
+        ad=3.888e-13 as=7.056e-13 pd=1.98u ps=3.86u m=(2)*(1) mf=(2)*(1)
+    M161 (Q2 D2 VREFP VDD) p_18_mm w=1.44u l=180.0n nf=8 mis_flag=1 \
+        ad=3.888e-13 as=4.68e-13 pd=1.98u ps=2.45u m=(8)*(1) mf=(8)*(1)
+    M28 (Q7 D7 VREFN VSS) n_18_mm w=480.0n l=180.0n nf=256 mis_flag=1 \
+        ad=1.296e-13 as=1.30425e-13 pd=1.02u ps=1.027187u m=(256)*(1) \
+        mf=(256)*(1)
+    M10 (Q5 D5 VREFN VSS) n_18_mm w=480.0n l=180.0n nf=64 mis_flag=1 \
+        ad=1.296e-13 as=1.329e-13 pd=1.02u ps=1.04875u m=(64)*(1) \
+        mf=(64)*(1)
+    M4 (Q4 D4 VREFN VSS) n_18_mm w=480.0n l=180.0n nf=32 mis_flag=1 \
+        ad=1.296e-13 as=1.362e-13 pd=1.02u ps=1.0775u m=(32)*(1) \
+        mf=(32)*(1)
+    M6 (Q2 D2 VREFN VSS) n_18_mm w=480.0n l=180.0n nf=8 mis_flag=1 \
+        ad=1.296e-13 as=1.56e-13 pd=1.02u ps=1.25u m=(8)*(1) mf=(8)*(1)
+    M2 (Q0 D0 VREFN VSS) n_18_mm w=480.0n l=180.0n nf=2 mis_flag=1 \
+        ad=1.296e-13 as=2.352e-13 pd=1.02u ps=1.94u m=(2)*(1) mf=(2)*(1)
+    M18 (Q6 D6 VREFN VSS) n_18_mm w=480.0n l=180.0n nf=128 mis_flag=1 \
+        ad=1.296e-13 as=1.3125e-13 pd=1.02u ps=1.034375u m=(128)*(1) \
+        mf=(128)*(1)
+    M8 (Q1 D1 VREFN VSS) n_18_mm w=480.0n l=180.0n nf=4 mis_flag=1 \
+        ad=1.296e-13 as=1.824e-13 pd=1.02u ps=1.48u m=(4)*(1) mf=(4)*(1)
+    M31 (QG DG VREFN VSS) n_18_mm w=480.0n l=180.0n nf=2 mis_flag=1 \
+        ad=1.296e-13 as=2.352e-13 pd=1.02u ps=1.94u m=(2)*(1) mf=(2)*(1)
+    M29 (Q3 D3 VREFN VSS) n_18_mm w=480.0n l=180.0n nf=16 mis_flag=1 \
+        ad=1.296e-13 as=1.428e-13 pd=1.02u ps=1.135u m=(16)*(1) \
+        mf=(16)*(1)
+ends DriverNetWork
+// End of subcircuit definition.
+
+// Library name: ScasubCircuits
+// Cell name: SARNormScasub
+// View name: schematic
+subckt SARNormScasub Clock ClockCmp ClockTck Compare DataOut\<0\> \
+        DataOut\<1\> DataOut\<2\> DataOut\<3\> DataOut\<4\> DataOut\<5\> \
+        DataOut\<6\> DataOut\<7\> Ready Reset ResetN ResetP SAROut\<0\> \
+        SAROut\<1\> SAROut\<2\> SAROut\<3\> SAROut\<4\> SAROut\<5\> \
+        SAROut\<6\> SAROut\<7\> SAROutG
+I0 (Clock Reset Compare Ready ClockTck ClockCmp ResetP ResetN SAROutG \
+        SAROut\<7\> SAROut\<6\> SAROut\<5\> SAROut\<4\> SAROut\<3\> \
+        SAROut\<2\> SAROut\<1\> SAROut\<0\> DataOut\<7\> DataOut\<6\> \
+        DataOut\<5\> DataOut\<4\> DataOut\<3\> DataOut\<2\> DataOut\<1\> \
+        DataOut\<0\>) sarnormverilog
+include "/home/janamani/Compiler/SpectreFiles/SARNormVerilog.scs"
+ends SARNormScasub
+// End of subcircuit definition.
+
+// Library name: AnalogCircuits
+// Cell name: SampleAndHold
+// View name: schematic
+subckt SampleAndHold GND VCN VCP VDD VIN VOP
+    M0 (net034 VCP VDD VDD) p_18_mm w=720.0n l=180.0n nf=1 mis_flag=1 \
+        ad=3.528e-13 as=3.528e-13 pd=2.42u ps=2.42u m=(1)*(1) mf=(1)*(1)
+    M11 (net038 net034 net036 VDD) p_18_mm w=720.0n l=180.0n nf=1 \
+        mis_flag=1 ad=3.528e-13 as=3.528e-13 pd=2.42u ps=2.42u m=(1)*(1) \
+        mf=(1)*(1)
+    M10 (net036 net038 VDD VDD) p_18_mm w=720.0n l=180.0n nf=1 mis_flag=1 \
+        ad=3.528e-13 as=3.528e-13 pd=2.42u ps=2.42u m=(1)*(1) mf=(1)*(1)
+    M1 (net034 VCP net035 GND) n_18_mm w=240.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.224e-13 as=2.224e-13 pd=2.0u ps=2.0u m=(1)*(1) mf=(1)*(1)
+    M2 (net035 VCN GND GND) n_18_mm w=240.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.224e-13 as=2.224e-13 pd=2.0u ps=2.0u m=(1)*(1) mf=(1)*(1)
+    M3 (net034 net038 net035 GND) n_18_mm w=240.0n l=180.0n nf=1 \
+        mis_flag=1 ad=2.224e-13 as=2.224e-13 pd=2.0u ps=2.0u m=(1)*(1) \
+        mf=(1)*(1)
+    M4 (net035 net038 VIN GND) n_18_mm w=240.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.224e-13 as=2.224e-13 pd=2.0u ps=2.0u m=(1)*(1) mf=(1)*(1)
+    M5 (VIN net038 VOP GND) n_18_mm w=720.0n l=180.0n nf=1 mis_flag=1 \
+        ad=3.528e-13 as=3.528e-13 pd=2.42u ps=2.42u m=(1)*(1) mf=(1)*(1)
+    M6 (net038 VDD net042 GND) n_18_mm w=240.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.224e-13 as=2.224e-13 pd=2.0u ps=2.0u m=(1)*(1) mf=(1)*(1)
+    M7 (net042 VCN GND GND) n_18_mm w=240.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.224e-13 as=2.224e-13 pd=2.0u ps=2.0u m=(1)*(1) mf=(1)*(1)
+    C0 (VOP GND) mimcaps_mm w=10u l=49.11u m=1
+    C1 (net036 net035) mimcaps_mm w=10u l=49.11u m=1
+ends SampleAndHold
+// End of subcircuit definition.
+
+// Library name: AnalogCircuits
+// Cell name: CapacitiveDAC
+// View name: schematic
+subckt CapacitiveDAC D0 D1 D2 D3 D4 D5 D6 D7 DG ResetN ResetP VDAC VDD \
+        VREFN VSS
+    C129 (VDAC D7) mimcaps_mm w=10u l=12.17u m=256
+    C128 (VDAC D6) mimcaps_mm w=10u l=12.17u m=128
+    C127 (VDAC D5) mimcaps_mm w=10u l=12.17u m=64
+    C126 (VDAC D4) mimcaps_mm w=10u l=12.17u m=32
+    C125 (VDAC D3) mimcaps_mm w=10u l=12.17u m=16
+    C124 (VDAC D2) mimcaps_mm w=10u l=12.17u m=8
+    C123 (VDAC D1) mimcaps_mm w=10u l=12.17u m=4
+    C122 (VDAC D0) mimcaps_mm w=10u l=12.17u m=2
+    C130 (VDAC DG) mimcaps_mm w=10u l=12.17u m=2
+    M0 (VDAC ResetN VREFN VDD) p_18_mm w=1.44u l=180.0n nf=2 mis_flag=1 \
+        ad=3.888e-13 as=7.056e-13 pd=1.98u ps=3.86u m=(2)*(1) mf=(2)*(1)
+    M1 (VREFN ResetP VDAC VSS) n_18_mm w=480.0n l=180.0n nf=2 mis_flag=1 \
+        ad=1.296e-13 as=2.352e-13 pd=1.02u ps=1.94u m=(2)*(1) mf=(2)*(1)
+ends CapacitiveDAC
+// End of subcircuit definition.
+
+// Library name: AnalogCircuits
+// Cell name: ClockGenerator
+// View name: schematic
+subckt ClockGenerator CLK CLKN CLKP VDD VSS
+    M60 (net0151 net012 VDD VDD) p_18_mm w=480.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.352e-13 as=2.352e-13 pd=1.94u ps=1.94u m=(1)*(1) mf=(1)*(1)
+    M59 (net097 net0151 VDD VDD) p_18_mm w=480.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.352e-13 as=2.352e-13 pd=1.94u ps=1.94u m=(1)*(1) mf=(1)*(1)
+    M58 (net0103 net097 VDD VDD) p_18_mm w=480.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.352e-13 as=2.352e-13 pd=1.94u ps=1.94u m=(1)*(1) mf=(1)*(1)
+    M62 (net0155 CLK VDD VDD) p_18_mm w=1.44u l=180.0n nf=1 mis_flag=1 \
+        ad=7.056e-13 as=7.056e-13 pd=3.86u ps=3.86u m=(1)*(1) mf=(1)*(1)
+    M61 (net0151 net0155 VDD VDD) p_18_mm w=480.0n l=180.0n nf=1 \
+        mis_flag=1 ad=2.352e-13 as=2.352e-13 pd=1.94u ps=1.94u m=(1)*(1) \
+        mf=(1)*(1)
+    M43 (CLKN net0103 VDD VDD) p_18_mm w=480.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.352e-13 as=2.352e-13 pd=1.94u ps=1.94u m=(1)*(1) mf=(1)*(1)
+    M67 (CLKP net012 VDD VDD) p_18_mm w=480.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.352e-13 as=2.352e-13 pd=1.94u ps=1.94u m=(1)*(1) mf=(1)*(1)
+    M66 (net012 net4 VDD VDD) p_18_mm w=480.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.352e-13 as=2.352e-13 pd=1.94u ps=1.94u m=(1)*(1) mf=(1)*(1)
+    M65 (net4 net0140 VDD VDD) p_18_mm w=480.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.352e-13 as=2.352e-13 pd=1.94u ps=1.94u m=(1)*(1) mf=(1)*(1)
+    M64 (net0140 net0103 VDD VDD) p_18_mm w=480.0n l=180.0n nf=1 \
+        mis_flag=1 ad=2.352e-13 as=2.352e-13 pd=1.94u ps=1.94u m=(1)*(1) \
+        mf=(1)*(1)
+    M63 (net0140 CLK VDD VDD) p_18_mm w=480.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.352e-13 as=2.352e-13 pd=1.94u ps=1.94u m=(1)*(1) mf=(1)*(1)
+    M56 (net0155 CLK VSS VSS) n_18_mm w=480.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.352e-13 as=2.352e-13 pd=1.94u ps=1.94u m=(1)*(1) mf=(1)*(1)
+    M55 (net0149 net0155 VSS VSS) n_18_mm w=240.0n l=180.0n nf=1 \
+        mis_flag=1 ad=2.224e-13 as=2.224e-13 pd=2.0u ps=2.0u m=(1)*(1) \
+        mf=(1)*(1)
+    M54 (net0151 net012 net0149 VSS) n_18_mm w=240.0n l=180.0n nf=1 \
+        mis_flag=1 ad=2.224e-13 as=2.224e-13 pd=2.0u ps=2.0u m=(1)*(1) \
+        mf=(1)*(1)
+    M51 (net0138 CLK VSS VSS) n_18_mm w=240.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.224e-13 as=2.224e-13 pd=2.0u ps=2.0u m=(1)*(1) mf=(1)*(1)
+    M50 (net0140 net0103 net0138 VSS) n_18_mm w=240.0n l=180.0n nf=1 \
+        mis_flag=1 ad=2.224e-13 as=2.224e-13 pd=2.0u ps=2.0u m=(1)*(1) \
+        mf=(1)*(1)
+    M34 (CLKN net0103 VSS VSS) n_18_mm w=240.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.224e-13 as=2.224e-13 pd=2.0u ps=2.0u m=(1)*(1) mf=(1)*(1)
+    M31 (net0103 net097 VSS VSS) n_18_mm w=240.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.224e-13 as=2.224e-13 pd=2.0u ps=2.0u m=(1)*(1) mf=(1)*(1)
+    M30 (net097 net0151 VSS VSS) n_18_mm w=240.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.224e-13 as=2.224e-13 pd=2.0u ps=2.0u m=(1)*(1) mf=(1)*(1)
+    M4 (CLKP net012 VSS VSS) n_18_mm w=240.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.224e-13 as=2.224e-13 pd=2.0u ps=2.0u m=(1)*(1) mf=(1)*(1)
+    M2 (net012 net4 VSS VSS) n_18_mm w=240.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.224e-13 as=2.224e-13 pd=2.0u ps=2.0u m=(1)*(1) mf=(1)*(1)
+    M1 (net4 net0140 VSS VSS) n_18_mm w=240.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.224e-13 as=2.224e-13 pd=2.0u ps=2.0u m=(1)*(1) mf=(1)*(1)
+ends ClockGenerator
+// End of subcircuit definition.
+
+// Library name: AnalogCircuits
+// Cell name: ComparatorCkt
+// View name: schematic
+subckt ComparatorCkt CLK VDD VIN VIP VOP VSS
+    M12 (CLKB CLK VDD VDD) p_18_mm w=480.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.352e-13 as=2.352e-13 pd=1.94u ps=1.94u m=(1)*(1) mf=(1)*(1)
+    M4 (VX net048 net035 VDD) p_18_mm w=420.0n l=360.0n nf=1 mis_flag=1 \
+        ad=2.44e-13 as=2.44e-13 pd=2u ps=2u m=(1)*(1) mf=(1)*(1)
+    M0 (net028 CLK VDD VDD) p_18_mm w=420.0n l=360.0n nf=1 mis_flag=1 \
+        ad=2.44e-13 as=2.44e-13 pd=2u ps=2u m=(1)*(1) mf=(1)*(1)
+    M2 (VY net028 net039 VDD) p_18_mm w=420.0n l=360.0n nf=1 mis_flag=1 \
+        ad=2.44e-13 as=2.44e-13 pd=2u ps=2u m=(1)*(1) mf=(1)*(1)
+    M3 (net039 VX VDD VDD) p_18_mm w=1.68u l=360.0n nf=1 mis_flag=1 \
+        ad=8.232e-13 as=8.232e-13 pd=4.34u ps=4.34u m=(1)*(1) mf=(1)*(1)
+    M5 (net035 VY VDD VDD) p_18_mm w=1.68u l=360.0n nf=1 mis_flag=1 \
+        ad=8.232e-13 as=8.232e-13 pd=4.34u ps=4.34u m=(1)*(1) mf=(1)*(1)
+    M10 (net048 CLK VDD VDD) p_18_mm w=420.0n l=360.0n nf=1 mis_flag=1 \
+        ad=2.44e-13 as=2.44e-13 pd=2u ps=2u m=(1)*(1) mf=(1)*(1)
+    M26 (net034 VY VDD VDD) p_18_mm w=480.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.352e-13 as=2.352e-13 pd=1.94u ps=1.94u m=(1)*(1) mf=(1)*(1)
+    M27 (net049 VOP net034 VDD) p_18_mm w=480.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.352e-13 as=2.352e-13 pd=1.94u ps=1.94u m=(1)*(1) mf=(1)*(1)
+    M24 (VOP net049 net033 VDD) p_18_mm w=480.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.352e-13 as=2.352e-13 pd=1.94u ps=1.94u m=(1)*(1) mf=(1)*(1)
+    M25 (net033 VX VDD VDD) p_18_mm w=480.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.352e-13 as=2.352e-13 pd=1.94u ps=1.94u m=(1)*(1) mf=(1)*(1)
+    M11 (CLKB CLK VSS VSS) n_18_mm w=240.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.224e-13 as=2.224e-13 pd=2.0u ps=2.0u m=(1)*(1) mf=(1)*(1)
+    M9 (VY VX VSS VSS) n_18_mm w=840.0n l=360.0n nf=1 mis_flag=1 \
+        ad=4.116e-13 as=4.116e-13 pd=2.66u ps=2.66u m=(1)*(1) mf=(1)*(1)
+    M15 (net097 CLK VSS VSS) n_18_mm w=420.0n l=360.0n nf=1 mis_flag=1 \
+        ad=2.44e-13 as=2.44e-13 pd=2u ps=2u m=(1)*(1) mf=(1)*(1)
+    M6 (VY CLKB VSS VSS) n_18_mm w=420.0n l=360.0n nf=1 mis_flag=1 \
+        ad=2.44e-13 as=2.44e-13 pd=2u ps=2u m=(1)*(1) mf=(1)*(1)
+    M7 (VX CLKB VSS VSS) n_18_mm w=420.0n l=360.0n nf=1 mis_flag=1 \
+        ad=2.44e-13 as=2.44e-13 pd=2u ps=2u m=(1)*(1) mf=(1)*(1)
+    M8 (VX VY VSS VSS) n_18_mm w=840.0n l=360.0n nf=1 mis_flag=1 \
+        ad=4.116e-13 as=4.116e-13 pd=2.66u ps=2.66u m=(1)*(1) mf=(1)*(1)
+    M13 (net028 VIP net097 VSS) n_18_mm w=1.2u l=540.0n nf=1 mis_flag=1 \
+        ad=5.88e-13 as=5.88e-13 pd=3.38u ps=3.38u m=(1)*(1) mf=(1)*(1)
+    M14 (net048 VIN net097 VSS) n_18_mm w=1.2u l=540.0n nf=1 mis_flag=1 \
+        ad=5.88e-13 as=5.88e-13 pd=3.38u ps=3.38u m=(1)*(1) mf=(1)*(1)
+    M28 (net049 VY VSS VSS) n_18_mm w=240.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.224e-13 as=2.224e-13 pd=2.0u ps=2.0u m=(1)*(1) mf=(1)*(1)
+    M22 (VOP VX VSS VSS) n_18_mm w=240.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.224e-13 as=2.224e-13 pd=2.0u ps=2.0u m=(1)*(1) mf=(1)*(1)
+    M23 (VOP net049 VSS VSS) n_18_mm w=240.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.224e-13 as=2.224e-13 pd=2.0u ps=2.0u m=(1)*(1) mf=(1)*(1)
+    M29 (net049 VOP VSS VSS) n_18_mm w=240.0n l=180.0n nf=1 mis_flag=1 \
+        ad=2.224e-13 as=2.224e-13 pd=2.0u ps=2.0u m=(1)*(1) mf=(1)*(1)
+ends ComparatorCkt
+// End of subcircuit definition.
+
+// Library name: AtoDConverters
+// Cell name: ScasubNormSAR
+// View name: schematic
+V2 (VIP 0) vsource phase=0 type=sine sinedc=900.0m ampl=450.00m freq=20K
+I0 (SAROut\<0\> SAROut\<1\> SAROut\<2\> SAROut\<3\> SAROut\<4\> \
+        SAROut\<5\> SAROut\<6\> SAROut\<7\> SAROutG Cmp0 Cmp1 Cmp2 Cmp3 \
+        Cmp4 Cmp5 Cmp6 Cmp7 CmpC vdd! VREFN VREFP 0) DriverNetWork
+V16 (vdd! 0) vsource dc=1.8 type=dc
+V38 (VREFN 0) vsource dc=400.0m type=dc
+V37 (VREFP 0) vsource dc=1.4 type=dc
+V40 (vcc! 0) vsource dc=1.8 type=dc
+I5 (Clock ClockCmp ClockTck Compare DataOut\<0\> DataOut\<1\> DataOut\<2\> \
+        DataOut\<3\> DataOut\<4\> DataOut\<5\> DataOut\<6\> DataOut\<7\> \
+        Ready Reset ResetN ResetP SAROut\<0\> SAROut\<1\> SAROut\<2\> \
+        SAROut\<3\> SAROut\<4\> SAROut\<5\> SAROut\<6\> SAROut\<7\> \
+        SAROutG) SARNormScasub
+I4 (0 VCN VCP vdd! VIP SIP) SampleAndHold
+V8 (Clock 0) vsource type=pulse val0=0 val1=1.8 period=1u delay=0 \
+        rise=100p fall=100p width=500.0n
+V1 (Reset 0) vsource type=pwl wave=[ 0 1.8 98n 1.8 98.1n 0 ]
+V0 (net011 0) vsource type=pwl wave=[ 0 900m 1u 900m 26u 1.35 76u 450m \
+        101u 900m 111u 1.08 125u 1.08 ]
+I1 (Cmp0 Cmp1 Cmp2 Cmp3 Cmp4 Cmp5 Cmp6 Cmp7 CmpC ResetN ResetP Vc vdd! \
+        VREFN 0) CapacitiveDAC
+I3 (ClockTck VCN VCP vdd! 0) ClockGenerator
+I2 (ClockCmp vdd! Vc SIP Compare 0) ComparatorCkt
